@@ -2,7 +2,7 @@
 .sb-container {
 	position: relative;
 	width: 150px;
-	height: 400px;
+	height: 375px;
 	margin: 30px auto 0 auto;
 }
 
@@ -390,16 +390,17 @@ margin: 30px auto 0 auto;
 	}
 
 	.sb-container div:last-child h5{
-		font-size: 17px;
+		font-size: 18px;
 		white-space: nowrap;
 		text-align: left;
 		margin: 0;
 		padding: 0;
+		    z-index: 1000;
 		position: absolute;
 		line-height: 50px;
-		top: -31px;
-		left: -66px;
-		color: #;
+		top: -47px;
+		left: -72px;
+
 		text-shadow: -1px -1px 1px rgba(255,255,255,0.1);
 		text-transform: uppercase;
 
