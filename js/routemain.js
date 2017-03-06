@@ -49,10 +49,12 @@ jQuery(document).ready(function(event){
 		url = ('' == url) ? 'index.html' : url;
   	var newSection = 'cd-'+url.replace('.html', '');
 if(url!='index.html')
-{
+{  if(url=='day1.html')
+       {$('.pagescont').show();}
   $('.sb-container').hide();
 }
 else{
+     $('.pagescont').hide();
   $('.sb-container').show();
 }
     var section = $('<div class="cd-main-content '+newSection+'"></div>');

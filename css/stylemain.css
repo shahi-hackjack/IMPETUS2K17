@@ -147,7 +147,7 @@
 	padding: 0;
 	position: absolute;
 	line-height: 50px;
-	top: -130px;
+	top: -169px;
 	left: -25px;
 	color: #FFF;
 	text-shadow: -1px -1px 1px rgba(255,255,255,0.1);
@@ -446,12 +446,12 @@ margin: 30px auto 0 auto;
   z-index: 10001;
   height: 100%!important;
   background-color: black;
- 
+
 
 }
 
 .container
-{	
+{
 
    display: none;
 
@@ -472,7 +472,7 @@ margin: 30px auto 0 auto;
           perspective:400px;
 }
 .Cube{
-	
+
   height:200px;
   width:200px;
   -webkit-transform-origin:50% 50%;
@@ -566,14 +566,14 @@ margin: 30px auto 0 auto;
   background-color: black;
   color: #fff;
   padding-bottom: 15%;
- 
+
 }
 
 .Impetus {
   display: flex;
  	margin-top: -25%;
  	height: 100%;
- 	
+
  	background-color: black;
 
  }

@@ -11,7 +11,13 @@
            <!-- CSS  -->
         <link rel="stylesheet" type="text/css" href="css/demo.css" />
 
-        <link rel="stylesheet" href="css/styleload.css"/>
+				<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,600|Merriweather:400' rel='stylesheet' type='text/css'>
+				<link rel="stylesheet" type="text/css" href="./event/css/normalize.css" />
+ 			<link rel="stylesheet" type="text/css" href="./event/css/demo.css" />
+ 			<link rel="stylesheet" type="text/css" href="./event/css/component.css" />
+ 		<script src="./event/js/modernizr-custom.js"></script>
+
+           <link rel="stylesheet" href="css/styleload.css"/>
 
         <script type="text/javascript" src="js/modernizr.custom.79639.js"></script>
            <!-- FONTS -->
@@ -57,16 +63,77 @@ $(window).ready(function(){
 
 
 <div class="container" id="wrap">
-      <main>
+
+	    <main>
             <div class="cd-main-content cd-about">
+							<svg class="hidden">
+								<defs>
+										<symbol id="icon-arrow" viewBox="0 0 39 51.43">
+												<title>Arrow Left</title>
+												<polygon points="7 25.71 36 45.71 36 26.08 36 5.71 7 25.71" stroke-miterlimit="10" stroke-width="6"/><line x1="3" y1="5.71" x2="3" y2="45.71" fill="none" stroke-miterlimit="10" stroke-width="6"/>
+										</symbol>
+								</defs>
+							</svg>
 
-							<a href="index.html" data-type="page-transition">Go back</a>
-							<H1>DAY1</H1>
-                     <H1>HELLO</H1>
+ 							<a href="index.html" data-type="page-transition">Go back</a>
 
-            </div>
+
+
 
       </main>
+ <div class="pagescont">
+			<div class="pages">
+			<div class="page page--current"><!-- intro page -->
+					</div><!-- /page -->
+			<div class="page">
+			<blockquote class="quote">
+			<p>A good programmer is someone who always looks both ways before crossing a one-way street. </p>
+			<footer>--~~~~~</footer>
+			</blockquote>
+			</div>
+			<div class="page">
+			<blockquote class="quote">
+			<p>EAST OR WEST</p>
+			<footer>Doug Linder</footer>
+			</blockquote>
+			</div>
+			<div class="page">
+			<blockquote class="quote">
+			<p>INDIA IS BEST</p>
+			<footer>Doug Linder</footer>
+			</blockquote>
+			</div>
+
+
+			<div class="page">
+			<blockquote class="quote">
+			<p>HAHAHA</p>
+			<footer>Doug Linder</footer>
+			</blockquote>
+			</div>
+
+
+			<div class="page">
+			<blockquote class="quote">
+			<p>SASUR KE NAATI</p>
+			<footer>Doug Linder</footer>
+			</blockquote>
+			</div>
+
+			</div><!-- /pages -->
+			<nav class="pagenav">
+			 <button class="pagenav__button pagenav__button--top" aria-label="Navigate top"><svg class="icon icon--rtop"><use xlink:href="#icon-arrow"></use></svg></button>
+			 </nav>
+</div>
+
+
+
+
+
+
+
+
+
 			<div id="sb-container" class="sb-container " onClick="play()" style="display:none">
 
 				<div onClick="play()" href="contactUs.html" data-type="page-transition">
@@ -171,6 +238,13 @@ $(window).ready(function(){
       <div class="cd-cover-layer"></div>
       <div class="cd-loading-bar"></div>
 
+			<!-- page reveal effect  -->
+			<script src="./event/js/classie.js"></script>
+			<script src="./event/js/main.js"></script>
+			<script src="./event/js/pagereveal.js">
+		 </script>
+
+
       <!-- swatchbook JAVASCRIPT -->
       <script>
 
@@ -192,6 +266,8 @@ $(window).ready(function(){
                audio.play();
              }
         </script>
+
+
 
       <!-- techbee javascript code -->
       <script src="./js/techbee.js" type="text/javascript">
