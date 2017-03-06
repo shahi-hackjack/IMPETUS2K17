@@ -50,12 +50,12 @@ jQuery(document).ready(function(event){
   	var newSection = 'cd-'+url.replace('.html', '');
 if(url!='index.html')
 {  if(url=='day1.html')
-       {$('.pagescont').show();}
-  $('.sb-container').hide();
+       {$('.pagescont').fadeIn(1000);}
+  $('.sb-container').fadeOut(2000);
 }
 else{
-     $('.pagescont').hide();
-  $('.sb-container').show();
+     $('.pagescont').fadeOut(2000);
+  $('.sb-container').show(1000);
 }
     var section = $('<div class="cd-main-content '+newSection+'"></div>');
 
