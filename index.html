@@ -463,9 +463,11 @@ $(window).ready(function(){
     if(width <= 700){
        $('.icon').removeClass('fa-4x').addClass('fa-2x');
          $('.icon').removeClass('fa-3x').addClass('fa-2x');
+         $('.conthead').css('margin-bottom: 350px');
    }
     else{
        $('.icon').removeClass('fa-2x').addClass('fa-4x');
+        $('.conthead').css('margin-bottom: 0px');
    }
 })
 .resize();
