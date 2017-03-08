@@ -12,6 +12,8 @@
         <link rel="stylesheet" type="text/css" href="css/demo.css" />
 
         <link rel="stylesheet" href="css/styleload.css"/>
+        <!-- ICONS-->
+        <link rel="stylesheet" href="css/icons/css/font-awesome.min.css">
 
         <script type="text/javascript" src="js/modernizr.custom.79639.js"></script>
            <!-- FONTS -->
@@ -74,32 +76,33 @@ $(window).ready(function(){
 						<source src="http://free-sounds.net/sound-files/special-effects/WATER_GL.WAV"></source>
 
 					</audio>
-					<span class="sb-icon icon-cog" ></span>
-					<h4><span>Contact Us</span></h4>
+					    
+                <span><i class="fa fa-address-book fa-3x icon"></i></span>
+                <h4><span class="conthead">Contact Us</span></h4>
 				</div>
 				<div onClick="play()" href="team.html" data-type="page-transition">
 					<audio id="audio1">
 						<source src="http://free-sounds.net/sound-files/special-effects/WATER_GL.WAV"></source>
 
 					</audio>
-					<span class="sb-icon icon-flight"></span>
-					<h4><span>Team</span></h4>
+					 <span><i class="fa fa-users fa-3x icon"></i></span>
+                <h4><span class="conthead">Team</span></h4>
 				</div>
 				<div onClick="play()" href="ieee.html" data-type="page-transition">
 					<audio id="audio1">
 						<source src="http://free-sounds.net/sound-files/special-effects/WATER_GL.WAV"></source>
 					</audio>
 
-					<span class="sb-icon icon-eye"></span>
-					<h4><span>IEEE</span></h4>
+					 <span><i class="fa fa-cog fa-4x icon"></i></span>
+                <h4><span class="conthead">IEEE</span></h4>
 				</div>
 				<div onClick="play()" href="emailUs.html" data-type="page-transition">
 					<audio id="audio1">
 						<source src="http://free-sounds.net/sound-files/special-effects/WATER_GL.WAV"></source>
 
 					</audio>
-					<span class="sb-icon icon-install"></span>
-					<h4><span>EMAIL Us</span></h4>
+					 <span><i class="fa fa-envelope-open fa-3x icon"></i></span>
+                <h4><span class="conthead">EMAIL Us</span></h4>
 				</div>
 				<!-- <div>
 				<span class="sb-icon icon-bag"></span>
@@ -114,40 +117,41 @@ $(window).ready(function(){
 				<source src="http://free-sounds.net/sound-files/special-effects/WATER_GL.WAV"></source>
 
 			</audio>
-			<span class="sb-icon icon-picture"></span>
-			<h4><span></span></h4>
+			<span class="fa fa-camera fa-3x icon"></span>
+            <h4><span class="conthead"> Gallery </span></h4>
 		</div>
 		<div onClick="play()" href="sponsors.html" data-type="page-transition">
 			<audio id="audio1">
 				<source src="http://free-sounds.net/sound-files/special-effects/WATER_GL.WAV"></source>
 			</audio>
 
-			<span class="sb-icon icon-video"></span>
-			<h4><span>Sponsors</span></h4>
+		 <span><i class="fa fa-inr fa-4x icon"></i></span>
+            <h4><span class="conthead">Sponsors</span></h4>
 		</div>
 		<div onClick="play()" href="day2.html" data-type="page-transition">
 			<audio id="audio1">
 				<source src="http://free-sounds.net/sound-files/special-effects/WATER_GL.WAV"></source>
 			</audio>
 
-			<span class="sb-icon icon-download"></span>
-			<h4><span>Day 2</span></h4>
+			
+            <span><i class="fa fa-star-half-full fa-4x icon"></i></span>
+            <h4><span class="conthead">Day 2</span></h4>
 		</div>
 		<div onClick="play()" href="day1.html" data-type="page-transition">
 			<audio id="audio1">
 				<source src="http://free-sounds.net/sound-files/special-effects/WATER_GL.WAV"></source>
 
 			</audio>
-			<span class="sb-icon icon-mobile"></span>
-			<h4><span>DAY 1</span></h4>
+			 <span><i class="fa fa-star-half-o fa-4x icon"></i></span>
+            <h4><span class="conthead">Day 1</span></h4>
 		</div>
 		<div onClick="play()">
 			<audio id="audio1">
 				<source src="http://free-sounds.net/sound-files/special-effects/WATER_GL.WAV"></source>
 
 			</audio>
-			<span class="sb-icon icon-camera"></span>
-			<h4><span>Events</span></h4>
+			  <span><i class="fa fa-star fa-4x icon"></i></span>
+            <h4><span class="conthead">Events</span></h4>
 		</div>
 		<div onClick="play()">
 			<audio id="audio1">
@@ -199,7 +203,22 @@ $(window).ready(function(){
         <script src="js/jquery-2.1.1.js"></script>
         <script src="js/routemain.js"></script> <!-- Resource jQuery -->
 
-
+ <script type="text/javascript">
+          $(window).resize(function(){
+      console.log('resize called');
+      var width = $(window).width();
+    if(width <= 700){
+       $('.icon').removeClass('fa-4x').addClass('fa-2x');
+         $('.icon').removeClass('fa-3x').addClass('fa-2x');
+         $('.conthead').css('margin-bottom: 350px');
+   }
+    else{
+       $('.icon').removeClass('fa-2x').addClass('fa-4x');
+        $('.conthead').css('margin-bottom: 0px');
+   }
+})
+.resize();
+        </script>
 
     </body>
 </html>
