@@ -29,7 +29,7 @@
   10%, 90% {
     transform: translate3d(-1px, 0, 0);
   }
-  
+
   20%, 80% {
     transform: translate3d(2px, 0, 0);
   }
@@ -273,9 +273,8 @@ span.sb-icon:before {
 	width: 100px;
 }
 
-body{
-	background:#DCC6E0;
-  -webkit-animation:colour 20s linear infinite;
+/*body{
+	  -webkit-animation:colour 20s linear infinite;
 	-moz-animation:colour 20s linear infinite;}
 	@-webkit-keyframes colour{
 		0%{
@@ -320,8 +319,13 @@ body{
 			background:#ec6a38
 		}
 
-	}
+	}*/
 
+body{
+	background:url("../images/2144.jpg") no-repeat ;
+	background-size: cover;
+
+}
 
 	.ball {
 	  pointer-events: none;
@@ -345,6 +349,10 @@ body{
 @media only screen and (max-width: 420px) {
 body{
 	overflow: hidden;
+
+		background-size: 1000px;
+
+
 
 }
 	.sb-container {    position: absolute;
@@ -749,5 +757,3 @@ margin: 30px auto 0 auto;
 }
 
 }
-
-
