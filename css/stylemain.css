@@ -322,8 +322,10 @@ span.sb-icon:before {
 	}*/
 
 body{
+    background-color:  #E5E5E5 !important;
 	background:url("../images/2144.jpg") no-repeat ;
-	background-size: cover;
+	background-position: right;
+background-size: 100vh;
 
 }
 
@@ -347,11 +349,13 @@ body{
 
 /*media Queries*/
 @media only screen and (max-width: 420px) {
-body{
-	overflow: hidden;
 
-		background-size: 1000px;
+body {
 
+	background-color: #E5E5E5 !important;
+	    background: url(../images/2144.jpg) no-repeat;
+	    /* background-position: right; */
+	    background-size: 471px 512px;
 
 
 }
