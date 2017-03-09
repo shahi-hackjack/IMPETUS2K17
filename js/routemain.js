@@ -49,7 +49,7 @@ jQuery(document).ready(function(event){
 		url = ('' == url) ? 'index.html' : url;
   	var newSection = 'cd-'+url.replace('.html', '');
 if(url!='index.html')
-{  if(url=='day1.html')
+{  if(url=='team.html')
        {$('.pagescont').fadeIn(1000);}
   $('.sb-container').fadeOut(2000);
 }
@@ -57,7 +57,7 @@ else{
      $('.pagescont').fadeOut(2000);
   $('.sb-container').show(1000);
 }
-    var section = $('<div class="cd-main-content '+newSection+'"></div>');
+    var section = $('<div class="cd-main-content cd-about"></div>');
 
   	section.load(url+' .cd-main-content > *', function(event){
       // load new content and replace <main> content with the new one

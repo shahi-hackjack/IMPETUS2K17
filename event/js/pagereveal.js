@@ -26,15 +26,22 @@
     revealer = new Revealer(revealerOpts);
 
 
-  document.querySelector('button.pagenav__button--top').addEventListener('click', function() { reveal('bottom',5); });
+  document.querySelector('button.pagenav__button--top').addEventListener('click', function() { reveal('top',0); });
+  document.querySelector('button.pagenav__button--right').addEventListener('click', function() { reveal('right',1); });
+  document.querySelector('button.pagenav__button--left').addEventListener('click', function() { reveal('left',2); });
 
-  // triggers the effect by calling instance.reveal(direction, callbackTime, callbackFn)
+function right()
+{
+  alert("right")
+}
+
+   // triggers the effect by calling instance.reveal(direction, callbackTime, callbackFn)
   function reveal(direction,h) {
     var callbackTime = 750,
       callbackFn = function() {
         classie.remove(pages[currentPage], 'page--current');
                      console.log("currentpage=",currentPage)
-        currentPage = currentPage === 0 ? 1: 0;
+        currentPage = currentPage === 0 ? h: 0;
 
         classie.add(pages[currentPage], 'page--current');
 

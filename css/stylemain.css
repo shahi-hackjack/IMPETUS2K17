@@ -351,13 +351,10 @@ background-size: 100vh;
 @media only screen and (max-width: 420px) {
 
 body {
-
 	background-color: #E5E5E5 !important;
-	    background: url(../images/2144.jpg) no-repeat;
-	    /* background-position: right; */
-	    background-size: 471px 512px;
-
-
+	background: url(../images/2144.jpg) no-repeat;
+	/* background-position: right; */
+	background-size: 555px 605px;
 }
 	.sb-container {    position: absolute;
     left: -7%;
