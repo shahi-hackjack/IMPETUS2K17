@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Fjalla+One|Lancelot');
 @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
 @import url('https://fonts.googleapis.com/css?family=Lato|Montserrat');
-
-hr
+html
 {
-	color: black;
+	overflow-y: scroll!important;
 }
+
 
 #sponwrap
 {	
@@ -17,12 +17,19 @@ hr
 	border: none;
 
 }
+.wrapper
+{
+	
+	min-height: 150%;
+
+}
 #sponsors
 {
 	width: 100%;
-	min-height: 100%;
+	min-height: 120%;
 	text-align: center;
-	overflow-y: scroll;
+	overflow: auto;
+	overflow-y: scroll!important;
 	background-color: #fff;
 	
 }
@@ -245,7 +252,8 @@ hr
 	}
 	#sponfoot
 	{
-		padding-top: 17%; 
+		padding-top: 19%;
+		height: 20%; 
 	}
 	#sponsors
 	{
