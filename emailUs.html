@@ -141,13 +141,13 @@ $(window).ready(function(){
 					 <span><i class="fa fa-cog fa-4x icon"></i></span>
                 <h4><span class="conthead">IEEE</span></h4>
 				</div>
-				<div onClick="play()" href="emailUs.html" data-type="page-transition">
+				<div onClick="play()" href="uvce.html" data-type="page-transition">
 					<audio id="audio1">
 						<source src="http://free-sounds.net/sound-files/special-effects/WATER_GL.WAV"></source>
 
 					</audio>
 					 <span><i class="fa fa-envelope-open fa-3x icon"></i></span>
-                <h4><span class="conthead">EMAIL Us</span></h4>
+                <h4><span class="conthead">UVCE</span></h4>
 				</div>
 				<!-- <div>
 				<span class="sb-icon icon-bag"></span>
@@ -273,6 +273,77 @@ $(window).ready(function(){
 })
 .resize();
         </script>
+
+        <!-- uvce js -->
+   <script src="uvce/js/anime.min.js"></script>
+     <!-- <script src="js/scrollMonitor.js"></script> -->
+     <script src="uvce/js/main.js"></script>
+     <script>
+     (function() {
+       // Fake loading.
+       setTimeout(init, 1000);
+
+       function init() {
+
+         var rev1 = new RevealFx(document.querySelector('#rev-1'), {
+           revealSettings : {
+             bgcolor: '#244AFC',
+             onCover: function(contentEl, revealerEl) {
+               contentEl.style.opacity = 1;
+             }
+           }
+         });
+         rev1.reveal();
+
+         var rev2 = new RevealFx(document.querySelector('#rev-2'), {
+           revealSettings : {
+             bgcolor: '#FB0A5D',
+             delay: 270,
+             onCover: function(contentEl, revealerEl) {
+               contentEl.style.opacity = 1;
+             }
+           }
+         });
+         rev2.reveal();
+
+         var rev3 = new RevealFx(document.querySelector('#rev-3'), {
+           revealSettings : {
+             bgcolor: '#39D005',
+             delay: 300,
+             onCover: function(contentEl, revealerEl) {
+               contentEl.style.opacity = 1;
+             }
+           }
+         });
+         rev3.reveal();
+
+
+         var rev4 = new RevealFx(document.querySelector('#rev-4'), {
+           revealSettings : {
+             bgcolor: '#285094',
+             delay: 290,
+             onCover: function(contentEl, revealerEl) {
+               contentEl.style.opacity = 1;
+             }
+           }
+         });
+         rev4.reveal();
+
+         var rev5 = new RevealFx(document.querySelector('#rev-5'), {
+           revealSettings : {
+             bgcolor: '#E37F80',
+             delay: 320,
+             onCover: function(contentEl, revealerEl) {
+               contentEl.style.opacity = 1;
+             }
+           }
+         });
+         rev5.reveal();
+
+
+       }})();
+     </script>
+
 
     </body>
 </html>
