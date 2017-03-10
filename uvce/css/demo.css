@@ -134,10 +134,12 @@ border: 2px solid #c68be8;
     color: black;
     font-size: 0.9em;
     width: 367px;
+		height: 211px;
      left: 8px;
     text-transform: capitalize;
     position: absolute;
     top: 284px;
+	  overflow:auto;
     /* line-height: normal; */
 }
 
