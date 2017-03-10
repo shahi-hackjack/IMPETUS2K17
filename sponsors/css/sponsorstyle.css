@@ -8,7 +8,7 @@ hr
 }
 
 #sponwrap
-{	
+{
 	width: 102%;
 	margin-left: -1%;
 	height: 40%;
@@ -22,10 +22,16 @@ hr
 	width: 100%;
 	min-height: 100%;
 	text-align: center;
-	overflow-y: scroll;
+	/*overflow-y: scroll;*/
 	background-color: #fff;
-	
+
 }
+
+.rowcontainer{
+	height:300px;
+	overflow: auto;
+}
+
 #subhead
 {
 	color: #00ad96;
@@ -52,13 +58,13 @@ hr
 {	margin-top: 4%;
 	position: relative;
 	text-align : center;
-	
+
 }
 #ieeelogo
 {
 	width: 30%;
 	margin-left: -3%;
-	
+
 	height: 18%;
 }
 #teqiplogo
@@ -86,7 +92,7 @@ hr
 	background-color: black;
 	display: inline-block;
 	position: relative;
-	
+
 }
 .sponsubhead
 {
@@ -108,10 +114,10 @@ hr
 	text-align: center;
 	position: relative;
 	cursor: default;
-	/*box-shadow: 
+	/*box-shadow:
 		inset 0 0 0 2px #CCCCCC,
 		0 1px 1px #CCCCCC;*/
-		
+
 	-webkit-transition: all 0.4s ease-in-out;
 	-moz-transition: all 0.4s ease-in-out;
 	-o-transition: all 0.4s ease-in-out;
@@ -130,19 +136,19 @@ hr
 	border-radius: 60%;
 	border: 1px solid black;
 	opacity: 0;
-	
+
 	-webkit-transition: all 0.4s ease-in-out;
 	-moz-transition: all 0.4s ease-in-out;
 	-o-transition: all 0.4s ease-in-out;
 	-ms-transition: all 0.4s ease-in-out;
 	transition: all 0.4s ease-in-out;
-	
+
 	-webkit-transform: scale(0);
 	-moz-transform: scale(0);
 	-o-transform: scale(0);
 	-ms-transform: scale(0);
 	transform: scale(0);
-	
+
 	-webkit-backface-visibility: hidden;
 
 }
@@ -155,8 +161,8 @@ hr
 	padding: 45px 0 0 0;
 	height: 140px;
 	font-family: 'Roboto Condensed', Arial, sans-serif;
-	text-shadow: 
-		0 0 1px #fff, 
+	text-shadow:
+		0 0 1px #fff,
 		0 1px 2px rgba(0,0,0,0.3);
 }
 
@@ -178,7 +184,7 @@ hr
 
 
 .ch-item:hover {
-	box-shadow: 
+	box-shadow:
 		inset 0 0 0 1px rgba(255,255,255,0.1),
 		0 1px 2px rgba(0,0,0,0.1);
 }
@@ -208,13 +214,13 @@ hr
 }
 
 
-@media only screen and (max-width: 640px)
+@media only screen and (max-width: 420px)
 {
 	#sponwrap h1
 	{
 		font-size: 3.5em;
 	}
-	
+
 	#sponwrap
 	{	margin-left: -2%;
 		height: 20%;
@@ -223,7 +229,7 @@ hr
 
 	}
 
-	
+
 	.ch-info h3
 	{
 		font-size: 8px;
@@ -245,7 +251,7 @@ hr
 	}
 	#sponfoot
 	{
-		padding-top: 17%; 
+		padding-top: 17%;
 	}
 	#sponsors
 	{
@@ -262,5 +268,5 @@ hr
 		height: 15%;
 		width: 20%;
 	}
-	
+
 }
