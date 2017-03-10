@@ -326,6 +326,7 @@ body{
 	background:url("../images/2144.jpg") no-repeat ;
 	background-position: right;
 background-size: 100vh;
+overflow:auto;
 
 }
 

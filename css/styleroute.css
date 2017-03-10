@@ -99,6 +99,7 @@ body.page-is-changing::after, body.page-is-changing::before {
 .cd-about .cd-loading-bar::before {
   background-color: #4089a6;
 }
+
 .cd-loading-bar::before {
   /* this is the progress bar inside the loading bar */
   content: '';
