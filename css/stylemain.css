@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Fjalla+One');
 .sb-container {
-	position: relative;
-	width: 150px;
-	height: 375px;
-	margin: 30px auto 0 auto;
+	position: absolute;
+width: 150px;
+height: 375px;
+margin: 30px auto 0 auto;
+left: 616px;
+top: 152px;
 }
 
 
@@ -181,7 +183,7 @@
 }
 
 .sb-container div:last-child h5{
-	font-size: 50px;
+	font-size: 45px;
 	white-space: nowrap;
 	text-align: left;
 	margin: 0;

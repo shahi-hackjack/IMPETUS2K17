@@ -51,10 +51,15 @@ jQuery(document).ready(function(event){
 if(url!='index.html')
 {  if(url=='team.html')
        {$('.pagescont').fadeIn(1000);}
+  else if(url=="day1.html"||url=="day2.html")
+           {
+             $('.eventpage').fadeIn(1000);
+           }
   $('.sb-container').fadeOut(2000);
 }
 else{
-     $('.pagescont').fadeOut(2000);
+     $('.pagescont').fadeOut(1000);
+             $('.eventpage').fadeOut(1000);
   $('.sb-container').show(1000);
 }
     var section = $('<div class="cd-main-content cd-about"></div>');

@@ -1,0 +1,79 @@
+    body {
+    	background: url('../images/evbg.png') no-repeat center center fixed;
+      background-size: cover;
+      -webkit-transition: background-image 0.5s ease-in-out;
+      -moz-transition: background-image 0.5s ease-in-out;
+      -ms-transition: background-image 0.5s ease-in-out;
+      -o-transition: background-image 0.5s ease-in-out;
+      transition: background-image 0.5s ease-in-out;
+
+      background-repeat: no-repeat;
+    }
+    #eventimpetuslogo{
+      z-index: 10000;
+width: 97px;
+position: absolute;
+left: 277px;
+    }
+#rt{
+  height : 100vh;
+  border-radius: 80px;
+  background: rgba(1, 1, 1, .5);
+
+}
+#lt{
+  height : 100vh;
+  border-radius: 80px;
+  background: rgba(1, 1, 1, .5);
+
+}
+#md{
+  height : 100vh;
+  border-radius: 80px;
+  background: rgba(0, 0, 0, .5);
+
+  visibility: hidden;
+}
+.c1 a:link, a:hover ,a:visited, a:active {
+	outline: 0;
+  color: white; /* blue colors for links too */
+  text-decoration: none; /* no underline */
+}
+.glyphicon {
+    font-size: 50px;
+}
+a {
+  color:white;
+}
+@media screen and (max-width: 767px) {
+  .c1 {
+  display: flex;
+  flex-wrap: wrap;
+}
+.c1 > :nth-child(1) { order: 2; }
+  .c1 > :nth-child(2) { order: 1; }
+  .c1 > :nth-child(3) { order: 3; }
+
+  #rt{
+  height : 30vh;
+  border-radius: 10px;
+  background: rgba(1, 1, 1, .5);
+  overflow: scroll;
+  width: 50%;
+}
+#lt{
+  height : 30vh;
+  border-radius: 10px;
+  background: rgba(1, 1, 1, .5);
+  overflow: scroll;
+  width: 50%;
+}
+#md{
+  height : 70vh;
+  border-radius: 10px;
+  background: rgba(1, 1, 1, .5);
+  overflow: scroll;
+  width: 100%;
+}
+
+}

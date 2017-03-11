@@ -19,11 +19,11 @@ text-transform: uppercase;
 	-moz-osx-font-smoothing: grayscale;
 }
 
-h1{
+#hh1{
 	font-size: 3em;
 	border:4px solid #8fa0ff;
 }
- h2{
+ #hh2{
 	font-size: 3em;
 border:4px solid #c68be8
 
@@ -98,63 +98,62 @@ line-height: normal;
 
 }
 
-h1 {
+#hh1 {
     font-size: 1.8em;
     border: 2px solid #8fa0ff;
 }
 #rev-1 {
-    position: absolute;
-    width: 352px;
-    left: 13px;
-    top: -13px;
-    text-align: center;
+	position: absolute;
+	width: 352px;
+	left: 13px;
+	top: -15px;
+	text-align: center;
 }
 
 #rev-3 {
-    position: absolute;
-    width: 588px;
-    top: 12px;
-    left: -257px;
-    z-index: 11;
-    text-align: center;
+	position: absolute;
+	width: 588px;
+	top: 12px;
+	left: -257px;
+	z-index: 11;
+	text-align: center;
 }
 #rev-2 {
-    color: black;
+	color: black;
     position: absolute;
     width: 342px;
-    top: 41px;
+    top: 23px;
     left: 18px;
-    text-align:right;
-}
+    text-align: right;
+	}
 
-h2{font-size: 1.6em;
+#hh2{font-size: 1.6em;
 border: 2px solid #c68be8;
 }
 #rev-5 {
-    color: black;
-    font-size: 0.9em;
-    width: 367px;
-		height: 211px;
-     left: 8px;
-    text-transform: capitalize;
-    position: absolute;
-    top: 284px;
-	  overflow:auto;
-    /* line-height: normal; */
-}
+	color: black;
+	font-size: 0.9em;
+	width: 367px;
+	height: 211px;
+	left: 8px;
+	text-transform: capitalize;
+	position: absolute;
+	top: 306px;
+	overflow: auto;
+	/* line-height: normal; */}
 
 #uvce {
     width: 300px;
 }
 #rev-4 {
-    position: absolute;
-    width: 457px;
-    top: 83px;
-    left: 23px;
+	position: absolute;
+width: 457px;
+top: 102px;
+left: 23px
 }
 #background {
     position: absolute;
-    width: 1244px;
+    width: 1289px;
     top: -267px;
     left: -870px;
 }
