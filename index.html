@@ -27,7 +27,10 @@
            <!-- FONTS -->
         <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
         <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700,300,300italic' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" type="text/css" href="ieee/css/custom.css" />
 
+        <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+        
         <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular.min.js"></script>
         <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js"></script>
         <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
@@ -46,6 +49,19 @@
       <link rel="stylesheet" type="text/css" href="uvce/css/revealer.css" />
       <link rel="stylesheet" type="text/css" href="uvce/css/demo.css" />
 
+
+<!-- Sponsor css-->
+<link rel="stylesheet" href="sponsors/css/sponsorstyle.css">
+<link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+  <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+  
+
+ 
+    
+<!-- IEEE CSS -->
+<link rel="stylesheet" type="text/css" href="ieee/css/jquery.jscrollpane.custom.css" />
+    <link rel="stylesheet" type="text/css" href="ieee/css/bookblock.css" />
+    <link rel="stylesheet" type="text/css" href="ieee/css/custom.css" />
 
 <script type="text/javascript">
 
@@ -404,7 +420,79 @@ $(window).ready(function(){
 
 </div><!--container ends here -->
 
+ <div class="container-fluid" id="sponsors" style="display: none">
+<div id="sponwrap" data-aos="flip-right" data-aos-duration="600">
+<h1 id="sponhead" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="800"> SPONSORS </h1>
 
+</div>
+<div class="wrapper">
+<h3 data-aos="flip-down" data-aos-duration="300" data-aos-delay="1000" id="subhead"> Our Proud Sponsors </h3>
+<div class="row">
+<div class="sponlabel col-md-12"> 
+
+<!--<h1 class="sponsubhead" data-aos="zoom-out-up" data-aos-delay="1500"> PLATINUM SPONSORS </h1>-->
+
+<div class="contl ch-item" id="ieeelogo" data-aos="fade-down-right" data-aos-delay="1200" data-aos-duration="600"><span><img src="sponsors/css/logo/ieee.png"> 
+  </span>
+</div>
+<br>
+<div class="contl ch-item" id="teqiplogo" data-aos="fade-down-right" data-aos-delay="1200" data-aos-duration="600"> 
+  <span><img src="sponsors/css/logo/teqip.png"> 
+  </span>
+</div>
+
+
+<br>
+<br>
+<div class="contl ch-item" id="liclogo" data-aos="fade-up-left" data-aos-delay="800" data-aos-duration="600"> 
+  <span><img src="sponsors/css/logo/lic.png"> 
+  </span>
+</div>
+<div class="contl ch-item" id="infosyslogo" data-aos="fade-up-left" data-aos-delay="800" data-aos-duration="600"> 
+  <span><img src="sponsors/css/logo/infosys.png"> 
+  </span>
+</div>
+
+<div class="row">
+<div class="sponlabel col-md-12"> 
+<!--<h1 class="sponsubhead" data-aos="zoom-out-up" data-aos-delay="700" data-aos-duration="600"> GOLD SPONSORS </h1>-->
+
+<div class="contl ch-item" id="bsnllogo" data-aos="fade-down-right" data-aos-delay="400" data-aos-duration="600"> 
+  <span><img src="sponsors/css/logo/bsnl.png"> 
+  </span>
+</div>
+<div class="contl ch-item" id="bescomlogo" data-aos="fade-down-right" data-aos-delay="400" data-aos-duration="600"> 
+  <span><img src="sponsors/css/logo/bescom.jpg"> 
+  </span>
+</div>
+
+
+<br>
+<br>
+<br>
+<div class="contl ch-item" id="techserlogo" data-aos="fade-up-left" data-aos-delay="300" data-aos-duration="600"> 
+  <span><img src="sponsors/css/logo/techser.jpg"> 
+  </span>
+</div>
+
+
+</div>
+</div>
+
+
+</div>
+</div>
+
+
+<footer id="sponfoot" data-aos="flip-left" data-aos-delay="500" data-aos-duration="600">
+<div id="footwrap">
+<h5> Copyright © IMPETUS 2017 </h5>  
+</div>
+</footer>
+
+</div>
+
+</div>
 
 
       <div class="cd-cover-layer"></div>
@@ -531,7 +619,23 @@ $(window).ready(function(){
 
     }})();
   </script>
+  <script type="text/javascript">
+    AOS.init();
+</script>
+ <!-- IEEE JS-->
+<script src="ieee/js/jquery.mousewheel.js"></script>
+    <script src="ieee/js/jquery.jscrollpane.min.js"></script>
+    <script src="ieee/js/jquerypp.custom.js"></script>
+    <script src="ieee/js/jquery.bookblock.js"></script>
+    <script src="ieee/js/page.js"></script>
+    <script src="ieee/js/modernizr.custom.79639.js"></script>
 
+<script>
+      $(function() {
 
+        Page.init();
+
+      });
+    </script>
     </body>
 </html>
