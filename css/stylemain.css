@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Fjalla+One');
+
 .sb-container {
 	position: relative;
 	width: 150px;
@@ -326,7 +327,7 @@ body{
 	background:url("../images/2144.jpg") no-repeat ;
 	background-position: right;
 background-size: 100vh;
-overflow:auto;
+overflow:hidden;
 
 }
 
