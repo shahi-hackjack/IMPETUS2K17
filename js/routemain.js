@@ -48,20 +48,7 @@ jQuery(document).ready(function(event){
 	function loadNewContent(url, bool) {
 		url = ('' == url) ? 'index.html' : url;
   	var newSection = 'cd-'+url.replace('.html', '');
-if(url!='index.html')
-{  if(url=='team.html')
-       {$('.pagescont').fadeIn(1000);}
-  else if(url=="day1.html"||url=="day2.html")
-           {
-             $('.eventpage').fadeIn(1000);
-           }
-  $('.sb-container').fadeOut(2000);
-}
-else{
-     $('.pagescont').fadeOut(1000);
-             $('.eventpage').fadeOut(1000);
-  $('.sb-container').show(1000);
-}
+
     var section = $('<div class="cd-main-content cd-about"></div>');
 
   	section.load(url+' .cd-main-content > *', function(event){
@@ -78,7 +65,10 @@ else{
         $('.cd-loading-bar').one('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend', function(){
           isAnimating = false;
           $('.cd-loading-bar').off('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend');
+
         });
+        location.reload();
+
 
         if( !transitionsSupported() ) isAnimating = false;
       }, delay);

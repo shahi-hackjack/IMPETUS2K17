@@ -47,7 +47,9 @@ text-align: center;
 }
 
 #impetuslogo{
-	width: 155px;
+	width: 135px;
+	z-index: 10000;
+	position: absolute;
 }
 
 #rev-3{
@@ -74,13 +76,19 @@ left: 750px;
 }
 #rev-5{
 	color: black;
-	font-size: 1.1em;
+	font-size: 0.6em;
 width: 555px;
 left: 80px;
 text-transform: capitalize;
 position: absolute;
-top: 284px;
+top: 280px;
 line-height: normal;
+
+}
+#rev-5 p
+{
+	font-size: 21px;
+	overflow: auto!important;
 }
 
 

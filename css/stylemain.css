@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Fjalla+One');
+
 .sb-container {
 	position: absolute;
 width: 150px;
@@ -18,8 +19,20 @@ top: 152px;
 	opacity: 1;
 	color: black;
 }
+.bck 
+{
+	top:-35%;
+	z-index: -1000;
+	position: absolute;
+	width: 100%;
 
-.icon:hover{
+	height: 100%;
+}
+.bck img
+{
+	position: absolute;
+}
+.icon:hover,.logo:hover{
   animation: shake 1s cubic-bezier(.40,.1,.23,.2) both;
   transform: translate3d(0, 0, 0);
   backface-visibility: hidden;
@@ -190,7 +203,7 @@ top: 152px;
 	padding: 0;
 	position: absolute;
 	line-height: 50px;
-	top: -169px;
+	top: -84px;
 	left: -25px;
 	color: #FFF;
 	text-shadow: -1px -1px 1px rgba(255,255,255,0.1);
@@ -325,10 +338,9 @@ span.sb-icon:before {
 
 body{
     background-color:  #E5E5E5 !important;
-	background:url("../images/2144.jpg") no-repeat ;
+
 	background-position: right;
 background-size: 100vh;
-overflow:auto;
 
 }
 
@@ -355,9 +367,10 @@ overflow:auto;
 
 body {
 	background-color: #E5E5E5 !important;
-	background: url(../images/2144.jpg) no-repeat;
+	/*background: url(../images/2144.jpg) no-repeat;*/
 	/* background-position: right; */
 	background-size: 555px 605px;
+	
 }
 	.sb-container {    position: absolute;
     left: -7%;
@@ -452,7 +465,7 @@ margin: 30px auto 0 auto;
 		    z-index: 1000;
 		position: absolute;
 		line-height: 50px;
-		top: -47px;
+		top: -30px;
 		left: -72px;
 
 		text-shadow: -1px -1px 1px rgba(255,255,255,0.1);
@@ -503,13 +516,6 @@ margin: 30px auto 0 auto;
 
 }
 
-.container
-{
-
-   display: none;
-
-
-}
 
 .CubeWrap{
   position:absolute;
@@ -676,7 +682,7 @@ margin: 30px auto 0 auto;
   }
 }
 
-@media only screen and (max-width: 750px)
+@media only screen and (max-width: 640px)
 {
 
 .CubeWrap{
@@ -760,5 +766,126 @@ margin: 30px auto 0 auto;
 
 }
 
+.sb-container
+{
+	margin-top: -45px;
+	align-self: center;
+	margin-left: 1%;
+	float: center;
 
+	font-size: 0.7em;
+}
+.logo
+{
+	width: 60px;
+	height: 80px;
+}
+.uvcelogo
+{
+	margin-left: -9%;
+	width: 40px;
+	height: 50px;
+	margin-top: 4%;
+}
+
+
+
+.teamlogo
+{
+	margin-top: 7%;
+	margin-left: -3%;
+
+}
+#ieeeimpetuslogo
+{
+	width : 60px;
+	height: 80px;
+}
+.gallogo
+{
+  height: 48px!important;
+  width: 48px!important;
+ margin-left: 1%;
+    margin-top: 2%;
+}
+
+}
+
+
+.teamlogo
+{
+	margin-top: 3%;
+}
+
+
+/* LOADER 2*/
+#main {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.spinner {
+  position: relative;
+}
+
+.spinner:before, .spinner:after {
+  content: "";
+  position: relative;
+  display: block;
+}
+
+.spinner:before {
+  animation: spinner 2.5s cubic-bezier(0.75, 0, 0.5, 1) infinite normal;
+  width: 7em;
+  height: 7em;
+  background-color: #fff;
+}
+
+.spinner:after {
+  animation: shadow 2.5s cubic-bezier(0.75, 0, 0.5, 1) infinite normal;
+  bottom: -.5em;
+  height: .25em;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+@keyframes spinner {
+  50% {
+    border-radius: 50%;
+    transform: scale(0.5) rotate(360deg);
+  }
+  100% {
+    transform: scale(1) rotate(720deg);
+  }
+}
+@keyframes shadow {
+  50% {
+    transform: scale(0.5);
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+}
+
+.loader2wrap
+{
+  width: 100%!important;
+  height: 800px!important;
+  top: 0%;
+  margin-top: -8%;
+
+  background: #B9EEFA!important;
+}
+
+@media screen and (max-width: 640px)
+{
+  .spinner:before
+  {
+    height : 2em;
+    width: 2em;
+  }
+  .bck img
+  {
+  	top: -95%;
+  	left: -40%;
+  }
 }

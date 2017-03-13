@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" ng-app="APP">
     <head>
-		<meta charset="UTF-8" />
+    <meta charset="UTF-8" />
            <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no' name='viewport' />
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <title>IMPETUS 2K17</title>
@@ -11,11 +11,11 @@
            <!-- CSS  -->
         <link rel="stylesheet" type="text/css" href="css/demo.css" />
 
-				<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,600|Merriweather:400' rel='stylesheet' type='text/css'>
-				<link rel="stylesheet" type="text/css" href="./event/css/normalize.css" />
- 			<link rel="stylesheet" type="text/css" href="./event/css/demo.css" />
- 			<link rel="stylesheet" type="text/css" href="./event/css/component.css" />
- 		<script src="./event/js/modernizr-custom.js"></script>
+        <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,600|Merriweather:400' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" type="text/css" href="team/event/css/normalize.css" />
+      <link rel="stylesheet" type="text/css" href="team/event/css/demo.css" />
+      <link rel="stylesheet" type="text/css" href="team/event/css/component.css" />
+    <script src="team/event/js/modernizr-custom.js"></script>
 
            <link rel="stylesheet" href="css/styleload.css"/>
 
@@ -23,6 +23,11 @@
            <!-- FONTS -->
         <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
         <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700,300,300italic' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Kurale' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Signika' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Calligraffitti' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Monoton' rel='stylesheet' type='text/css'>
         <!-- ICONS-->
         <link rel="stylesheet" href="css/icons/css/font-awesome.min.css">
 
@@ -30,21 +35,32 @@
         <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js"></script>
         <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
 
+        <!-- Team css-->
+    <link rel="stylesheet" type="text/css" href="team/css/component.css" />
+    <link rel="stylesheet" type="text/css" href="team/css/normalize.css" />
+    
+    <script src="team/js/snap.svg-min.js"></script>
 
-        <!-- uvce css     -->
-      		    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700" rel="stylesheet">
-      				<link rel="stylesheet" type="text/css" href="uvce/css/revealer.css" />
-      				<link rel="stylesheet" type="text/css" href="uvce/css/demo.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.css">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.js"></script>
+    <!-- -->
 
+    <!-- event -->
 
-<script type="text/javascript" src="js/jquery.swatchbook.js"></script>
-<script src="./angular/controller.js" type="text/javascript"></script>
-<script src="./js/cursor.js" type="text/javascript"></script>
+          <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,600|Merriweather:400' rel='stylesheet' type='text/css'>
+          <link rel="stylesheet" type="text/css" href="team/event/css/normalize.css" />
+          <link rel="stylesheet" type="text/css" href="team/event/css/demo.css" />
+          <link rel="stylesheet" type="text/css" href="team/event/css/component.css" />
+        <script src="team/event/js/modernizr-custom.js"></script>
+       <!-- <script type="text/javascript" src="team/event/js/modernizr.custom.79639.js"></script>-->
+
 <link rel="stylesheet" href="css/stylemain.css"> <!-- Resource style -->
 <!-- <link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
-
+<script src="./js/cursor.js" type="text/javascript"></script>
 <link rel="stylesheet" href="css/styleroute.css"> <!-- Resource style -->
-<script src="js/routemodernizr.js"></script>
+<script src="./js/routemodernizr.js"></script>
+
+
 
 <script type="text/javascript">
 
@@ -61,17 +77,6 @@ $(window).ready(function(){
 });
 </script>
 
-<!-- event page -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<!-- <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular.min.js" ></script> -->
-<!-- <script src="controllers/controller.js"></script> -->
-<link rel = "stylesheet" href="eventmain/css/main.css" />
-<link href="https://fonts.googleapis.com/css?family=Bahiana|Barrio|Caveat+Brush|Orbitron|VT323|Economica|Permanent+Marker|Monoton|Indie+Flower|Cabin+Sketch|Schoolbell" rel="stylesheet">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.nicescroll/3.6.8-fix/jquery.nicescroll.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.nicescroll/3.6.8-fix/zoomico.png"></script>
-<script type="text/javascript" src="eventmain/main.js"></script>
-
 
 
 </head>
@@ -84,380 +89,668 @@ $(window).ready(function(){
 
 <div class="container" id="wrap">
 
-	    <main>
-            <div class="cd-main-content cd-about">
-                       <a href="index.html" data-type="page-transition"><img id="impetuslogo"  src="./images/impetus.png" /></a>
-          			<section>
-
-
-
-
-
-
-          			</section>
-
-
-						</main>
-
-
-
-            <div class="pagescont" style="display:none">
+      <main>
+            <div class="cd-main-content cd-about" id="rev-3">
+                <audio id="audio1">
+            <source src="./images/audio.mpeg"></source>
+          </audio>
+              
+                
+                       <a href="index.html" onClick="play()" data-type="page-transition"><img id="impetuslogo" class="teamlogo logo0" src="team/images/impetus.png" /></a>
+                    </div>
+                  <div class="loader2wrap">
+                <div id="main">
+                  <span class="spinner"></span>
+                </div>
+            </div>    
+              
+              <div class="teampage">
+              <div class="pagescont" >
                   <div class="pages">
-            <div class="page page--current"><!-- intro page -->
+            
+            <div class="page page--current top" style="background: #000123;"><!-- intro page -->
+              <header data-aos="slide-down" data-aos-delay="300" data-aos-transition="1200">
+        
+                <h1 >TEAM</h1>
+              </header>
 
-                      </div><!-- /page -->
-            <div class="page">
-              <blockquote class="quote">
-                <p>DESIGNER</p>
-              </blockquote>
+              <div id="developer" class="grid" >
+      <h1>DEVELOPERS</h1>
+        <a href="#" data-path-hover="m 0,0 0,47.7775 c 24.580441,3.12569 55.897012,-8.199417 90,-8.199417 34.10299,0 65.41956,11.325107 90,8.199417 L 180,0 z">
+          <figure class="grow" >
+            <img src="team/images/1.jpg"  height="200"/>
+            <svg viewBox="0 0 180 320" preserveAspectRatio="none"><path d="m 0,0 0,171.14385 c 24.580441,15.47138 55.897012,24.75772 90,24.75772 34.10299,0 65.41956,-9.28634 90,-24.75772 L 180,0 0,0 z"/></svg>
+            <figcaption>
+
+              <button>soumyaa tiwari</button>
+            </figcaption>
+          </figure>
+        </a>
+        <a href="#" data-path-hover="m 0,0 0,47.7775 c 24.580441,3.12569 55.897012,-8.199417 90,-8.199417 34.10299,0 65.41956,11.325107 90,8.199417 L 180,0 z" >
+          <figure class="grow" >
+            <img src="team/images/2.jpg" width="200" height="200"/>
+            <svg viewBox="0 0 180 320" preserveAspectRatio="none"><path d="m 0,0 0,171.14385 c 24.580441,15.47138 55.897012,24.75772 90,24.75772 34.10299,0 65.41956,-9.28634 90,-24.75772 L 180,0 0,0 z"/></svg>
+            <figcaption>
+              
+              <button>saurabh chalke</button>
+            </figcaption>
+          </figure>
+        </a>
+        <a href="#" data-path-hover="m 0,0 0,47.7775 c 24.580441,3.12569 55.897012,-8.199417 90,-8.199417 34.10299,0 65.41956,11.325107 90,8.199417 L 180,0 z" >
+          <figure class="grow" >
+            <img src="team/images/3.jpg" width="200" height="200"/>
+            <svg viewBox="0 0 180 320" preserveAspectRatio="none"><path d="m 0,0 0,171.14385 c 24.580441,15.47138 55.897012,24.75772 90,24.75772 34.10299,0 65.41956,-9.28634 90,-24.75772 L 180,0 0,0 z"/></svg>
+            <figcaption>
+              
+              <button>Shruthi ramkumar</button>
+            </figcaption>
+          </figure>
+        </a>
+        <a href="#" data-path-hover="m 0,0 0,47.7775 c 24.580441,3.12569 55.897012,-8.199417 90,-8.199417 34.10299,0 65.41956,11.325107 90,8.199417 L 180,0 z"  >
+          <figure class="grow" >
+            <img src="team/images/4.jpg" width="200" height="200"/>
+            <svg viewBox="0 0 180 320" preserveAspectRatio="none"><path d="m 0,0 0,171.14385 c 24.580441,15.47138 55.897012,24.75772 90,24.75772 34.10299,0 65.41956,-9.28634 90,-24.75772 L 180,0 0,0 z"/></svg>
+            <figcaption>
+              
+              <button>shivasheesh yadav</button>
+            </figcaption>
+          </figure>
+        </a>
+        <a href="#" data-path-hover="m 0,0 0,47.7775 c 24.580441,3.12569 55.897012,-8.199417 90,-8.199417 34.10299,0 65.41956,11.325107 90,8.199417 L 180,0 z"  >
+          <figure class="grow" >
+            <img src="team/images/5.jpg" width="200" height="200"/>
+            <svg viewBox="0 0 180 320" preserveAspectRatio="none"><path d="m 0,0 0,171.14385 c 24.580441,15.47138 55.897012,24.75772 90,24.75772 34.10299,0 65.41956,-9.28634 90,-24.75772 L 180,0 0,0 z"/></svg>
+            <figcaption>
+              
+              <button>md shahenoor</button>
+            </figcaption>
+          </figure>
+        </a>
+        </div>
+            </div><!-- /page -->
+               
+
+            <div class="page right" style="background:#2a1933 ;">
+              
+              <div id="designer" class="grid" >
+        <h1>DESIGNERS</h1>
+        <a href="#" data-path-hover="m 0,0 0,47.7775 c 24.580441,3.12569 55.897012,-8.199417 90,-8.199417 34.10299,0 65.41956,11.325107 90,8.199417 L 180,0 z" >
+          <figure class="grow">
+            <img src="team/images/6.jpg" width="200" height="200"/>
+            <svg viewBox="0 0 180 320" preserveAspectRatio="none"><path d="m 0,0 0,171.14385 c 24.580441,15.47138 55.897012,24.75772 90,24.75772 34.10299,0 65.41956,-9.28634 90,-24.75772 L 180,0 0,0 z"/></svg>
+            <figcaption>
+              
+              <button>ajeya simha</button>
+            </figcaption>
+          </figure>
+        </a>
+
+        <a href="#" data-path-hover="m 0,0 0,47.7775 c 24.580441,3.12569 55.897012,-8.199417 90,-8.199417 34.10299,0 65.41956,11.325107 90,8.199417 L 180,0 z">
+          <figure class="grow">
+            <img src="team/images/7.jpg" width="200" height="200"/>
+            <svg viewBox="0 0 180 320" preserveAspectRatio="none"><path d="m 0,0 0,171.14385 c 24.580441,15.47138 55.897012,24.75772 90,24.75772 34.10299,0 65.41956,-9.28634 90,-24.75772 L 180,0 0,0 z"/></svg>
+            <figcaption>
+              
+              <button>chinmayi</button>
+            </figcaption>
+          </figure>
+        </a>
+        <a href="#" data-path-hover="m 0,0 0,47.7775 c 24.580441,3.12569 55.897012,-8.199417 90,-8.199417 34.10299,0 65.41956,11.325107 90,8.199417 L 180,0 z">
+          <figure class="grow">
+            <img src="team/images/8.jpg" width="200" height="200"/>
+            <svg viewBox="0 0 180 320" preserveAspectRatio="none"><path d="m 0,0 0,171.14385 c 24.580441,15.47138 55.897012,24.75772 90,24.75772 34.10299,0 65.41956,-9.28634 90,-24.75772 L 180,0 0,0 z"/></svg>
+            <figcaption>
+              
+              <button>karthik kolle</button>
+            </figcaption>
+          </figure>
+        </a>
+        <a href="#" data-path-hover="m 0,0 0,47.7775 c 24.580441,3.12569 55.897012,-8.199417 90,-8.199417 34.10299,0 65.41956,11.325107 90,8.199417 L 180,0 z">
+          <figure class="grow">
+            <img src="team/images/9.jpg" width="200" height="200"/>
+            <svg viewBox="0 0 180 320" preserveAspectRatio="none"><path d="m 0,0 0,171.14385 c 24.580441,15.47138 55.897012,24.75772 90,24.75772 34.10299,0 65.41956,-9.28634 90,-24.75772 L 180,0 0,0 z"/></svg>
+            <figcaption>
+              
+              <button>likith m</button>
+            </figcaption>
+          </figure>
+        </a>
+        <a href="#" data-path-hover="m 0,0 0,47.7775 c 24.580441,3.12569 55.897012,-8.199417 90,-8.199417 34.10299,0 65.41956,11.325107 90,8.199417 L 180,0 z">
+          <figure class="grow">
+            <img src="team/images/10.jpg" width="200" height="200"/>
+            <svg viewBox="0 0 180 320" preserveAspectRatio="none"><path d="m 0,0 0,171.14385 c 24.580441,15.47138 55.897012,24.75772 90,24.75772 34.10299,0 65.41956,-9.28634 90,-24.75772 L 180,0 0,0 z"/></svg>
+            <figcaption>
+              
+              <button>mohit</button>
+            </figcaption>
+          </figure>
+        </a>
+        <a href="#" data-path-hover="m 0,0 0,47.7775 c 24.580441,3.12569 55.897012,-8.199417 90,-8.199417 34.10299,0 65.41956,11.325107 90,8.199417 L 180,0 z" >
+          <figure class="grow">
+            <img src="team/images/11.jpg" width="200" height="200"/>
+            <svg viewBox="0 0 180 320" preserveAspectRatio="none"><path d="m 0,0 0,171.14385 c 24.580441,15.47138 55.897012,24.75772 90,24.75772 34.10299,0 65.41956,-9.28634 90,-24.75772 L 180,0 0,0 z"/></svg>
+            <figcaption>
+              
+              <button>priya g</button>
+            </figcaption>
+          </figure>
+        </a>
+        <a href="#" data-path-hover="m 0,0 0,47.7775 c 24.580441,3.12569 55.897012,-8.199417 90,-8.199417 34.10299,0 65.41956,11.325107 90,8.199417 L 180,0 z" >
+          <figure class="grow">
+            <img src="team/images/43.jpg" width="200" height="200"/>
+            <svg viewBox="0 0 180 320" preserveAspectRatio="none"><path d="m 0,0 0,171.14385 c 24.580441,15.47138 55.897012,24.75772 90,24.75772 34.10299,0 65.41956,-9.28634 90,-24.75772 L 180,0 0,0 z"/></svg>
+            <figcaption>
+              
+              <button>shruthi g</button>
+            </figcaption>
+          </figure>
+        </a>
+        <a href="#" data-path-hover="m 0,0 0,47.7775 c 24.580441,3.12569 55.897012,-8.199417 90,-8.199417 34.10299,0 65.41956,11.325107 90,8.199417 L 180,0 z" >
+          <figure class="grow">
+            <img src="team/images/13.jpg" width="200" height="200"/>
+            <svg viewBox="0 0 180 320" preserveAspectRatio="none"><path d="m 0,0 0,171.14385 c 24.580441,15.47138 55.897012,24.75772 90,24.75772 34.10299,0 65.41956,-9.28634 90,-24.75772 L 180,0 0,0 z"/></svg>
+            <figcaption>
+              
+              <button>yashwanth hs</button>
+            </figcaption>
+          </figure>
+        </a>
+        </div>
             </div>
-            <div class="page">
-              <blockquote class="quote">
-                <p>COORDINATORS</p>
-                <footer>Doug Linder</footer>
-              </blockquote>
+            
+
+            
+            <div class="page left" style="background: #2a1933;">
+              
+              <div id="coord" class="grid">
+        <h1>CO-ORDINATORS</h1>
+        <a href="#" data-path-hover="m 0,0 0,47.7775 c 24.580441,3.12569 55.897012,-8.199417 90,-8.199417 34.10299,0 65.41956,11.325107 90,8.199417 L 180,0 z">
+          <figure class="grow">
+            <img src="team/images/14.jpg" width="200" height="200"/>
+            <svg viewBox="0 0 180 320" preserveAspectRatio="none"><path d="m 0,0 0,171.14385 c 24.580441,15.47138 55.897012,24.75772 90,24.75772 34.10299,0 65.41956,-9.28634 90,-24.75772 L 180,0 0,0 z"/></svg>
+            <figcaption>
+              
+              <button>aishwarya joisa</button>
+            </figcaption>
+          </figure>
+        </a>
+        
+        
+        <a href="#" data-path-hover="m 0,0 0,47.7775 c 24.580441,3.12569 55.897012,-8.199417 90,-8.199417 34.10299,0 65.41956,11.325107 90,8.199417 L 180,0 z">
+          <figure class="grow">
+            <img src="team/images/15.jpg" width="200" height="200"/>
+            <svg viewBox="0 0 180 320" preserveAspectRatio="none"><path d="m 0,0 0,171.14385 c 24.580441,15.47138 55.897012,24.75772 90,24.75772 34.10299,0 65.41956,-9.28634 90,-24.75772 L 180,0 0,0 z"/></svg>
+            <figcaption>
+              
+              <button>archana prabhu</button>
+            </figcaption>
+          </figure>
+        </a>
+        <a href="#" data-path-hover="m 0,0 0,47.7775 c 24.580441,3.12569 55.897012,-8.199417 90,-8.199417 34.10299,0 65.41956,11.325107 90,8.199417 L 180,0 z">
+          <figure class="grow">
+            <img src="team/images/16.jpg" width="200" height="200"/>
+            <svg viewBox="0 0 180 320" preserveAspectRatio="none"><path d="m 0,0 0,171.14385 c 24.580441,15.47138 55.897012,24.75772 90,24.75772 34.10299,0 65.41956,-9.28634 90,-24.75772 L 180,0 0,0 z"/></svg>
+            <figcaption>
+              
+              <button>arun m</button>
+            </figcaption>
+          </figure>
+        </a>
+        <a href="#" data-path-hover="m 0,0 0,47.7775 c 24.580441,3.12569 55.897012,-8.199417 90,-8.199417 34.10299,0 65.41956,11.325107 90,8.199417 L 180,0 z">
+          <figure class="grow">
+            <img src="team/images/17.jpg" width="200" height="200"/>
+            <svg viewBox="0 0 180 320" preserveAspectRatio="none"><path d="m 0,0 0,171.14385 c 24.580441,15.47138 55.897012,24.75772 90,24.75772 34.10299,0 65.41956,-9.28634 90,-24.75772 L 180,0 0,0 z"/></svg>
+            <figcaption>
+              
+              <button>ayesha suhani</button>
+            </figcaption>
+          </figure>
+        </a>
+        <a href="#" data-path-hover="m 0,0 0,47.7775 c 24.580441,3.12569 55.897012,-8.199417 90,-8.199417 34.10299,0 65.41956,11.325107 90,8.199417 L 180,0 z">
+          <figure class="grow">
+            <img src="team/images/18.jpg" width="200" height="200"/>
+            <svg viewBox="0 0 180 320" preserveAspectRatio="none"><path d="m 0,0 0,171.14385 c 24.580441,15.47138 55.897012,24.75772 90,24.75772 34.10299,0 65.41956,-9.28634 90,-24.75772 L 180,0 0,0 z"/></svg>
+            <figcaption>
+              
+              <button>bhargavi n</button>
+            </figcaption>
+          </figure>
+        </a>
+        <a href="#" data-path-hover="m 0,0 0,47.7775 c 24.580441,3.12569 55.897012,-8.199417 90,-8.199417 34.10299,0 65.41956,11.325107 90,8.199417 L 180,0 z">
+          <figure class="grow">
+            <img src="team/images/19.jpg" width="200" height="200"/>
+            <svg viewBox="0 0 180 320" preserveAspectRatio="none"><path d="m 0,0 0,171.14385 c 24.580441,15.47138 55.897012,24.75772 90,24.75772 34.10299,0 65.41956,-9.28634 90,-24.75772 L 180,0 0,0 z"/></svg>
+            <figcaption>
+              
+              <button>bibhash</button>
+            </figcaption>
+          </figure>
+        </a>
+        <a href="#" data-path-hover="m 0,0 0,47.7775 c 24.580441,3.12569 55.897012,-8.199417 90,-8.199417 34.10299,0 65.41956,11.325107 90,8.199417 L 180,0 z">
+          <figure class="grow">
+            <img src="team/images/20.jpg" width="200" height="200"/>
+            <svg viewBox="0 0 180 320" preserveAspectRatio="none"><path d="m 0,0 0,171.14385 c 24.580441,15.47138 55.897012,24.75772 90,24.75772 34.10299,0 65.41956,-9.28634 90,-24.75772 L 180,0 0,0 z"/></svg>
+            <figcaption>
+              
+              <button>chaitra shetty</button>
+            </figcaption>
+          </figure>
+        </a>
+        <a href="#" data-path-hover="m 0,0 0,47.7775 c 24.580441,3.12569 55.897012,-8.199417 90,-8.199417 34.10299,0 65.41956,11.325107 90,8.199417 L 180,0 z">
+          <figure class="grow">
+            <img src="team/images/21.jpg" width="200" height="200"/>
+            <svg viewBox="0 0 180 320" preserveAspectRatio="none"><path d="m 0,0 0,171.14385 c 24.580441,15.47138 55.897012,24.75772 90,24.75772 34.10299,0 65.41956,-9.28634 90,-24.75772 L 180,0 0,0 z"/></svg>
+            <figcaption>
+              
+              <button>chinmayi</button>
+            </figcaption>
+          </figure>
+        </a>
+        <a href="#" data-path-hover="m 0,0 0,47.7775 c 24.580441,3.12569 55.897012,-8.199417 90,-8.199417 34.10299,0 65.41956,11.325107 90,8.199417 L 180,0 z">
+          <figure class="grow">
+            <img src="team/images/22.jpg" width="200" height="200"/>
+            <svg viewBox="0 0 180 320" preserveAspectRatio="none"><path d="m 0,0 0,171.14385 c 24.580441,15.47138 55.897012,24.75772 90,24.75772 34.10299,0 65.41956,-9.28634 90,-24.75772 L 180,0 0,0 z"/></svg>
+            <figcaption>
+              
+              <button>deepti k</button>
+            </figcaption>
+          </figure>
+        </a>
+        <a href="#" data-path-hover="m 0,0 0,47.7775 c 24.580441,3.12569 55.897012,-8.199417 90,-8.199417 34.10299,0 65.41956,11.325107 90,8.199417 L 180,0 z">
+          <figure class="grow">
+            <img src="team/images/23.jpg" width="200" height="200"/>
+            <svg viewBox="0 0 180 320" preserveAspectRatio="none"><path d="m 0,0 0,171.14385 c 24.580441,15.47138 55.897012,24.75772 90,24.75772 34.10299,0 65.41956,-9.28634 90,-24.75772 L 180,0 0,0 z"/></svg>
+            <figcaption>
+              
+              <button>jishnu</button>
+            </figcaption>
+          </figure>
+        </a>
+        <a href="#" data-path-hover="m 0,0 0,47.7775 c 24.580441,3.12569 55.897012,-8.199417 90,-8.199417 34.10299,0 65.41956,11.325107 90,8.199417 L 180,0 z">
+          <figure class="grow">
+            <img src="team/images/24.jpg" width="200" height="200"/>
+            <svg viewBox="0 0 180 320" preserveAspectRatio="none"><path d="m 0,0 0,171.14385 c 24.580441,15.47138 55.897012,24.75772 90,24.75772 34.10299,0 65.41956,-9.28634 90,-24.75772 L 180,0 0,0 z"/></svg>
+            <figcaption>
+              
+              <button>karthik kolle</button>
+            </figcaption>
+          </figure>
+        </a>
+        <a href="#" data-path-hover="m 0,0 0,47.7775 c 24.580441,3.12569 55.897012,-8.199417 90,-8.199417 34.10299,0 65.41956,11.325107 90,8.199417 L 180,0 z">
+          <figure class="grow">
+            <img src="team/images/25.jpg" width="200" height="200"/>
+            <svg viewBox="0 0 180 320" preserveAspectRatio="none"><path d="m 0,0 0,171.14385 c 24.580441,15.47138 55.897012,24.75772 90,24.75772 34.10299,0 65.41956,-9.28634 90,-24.75772 L 180,0 0,0 z"/></svg>
+            <figcaption>
+              
+              <button>kaushalya</button>
+            </figcaption>
+          </figure>
+        </a>
+        <a href="#" data-path-hover="m 0,0 0,47.7775 c 24.580441,3.12569 55.897012,-8.199417 90,-8.199417 34.10299,0 65.41956,11.325107 90,8.199417 L 180,0 z">
+          <figure class="grow">
+            <img src="team/images/26.jpg" width="200" height="200"/>
+            <svg viewBox="0 0 180 320" preserveAspectRatio="none"><path d="m 0,0 0,171.14385 c 24.580441,15.47138 55.897012,24.75772 90,24.75772 34.10299,0 65.41956,-9.28634 90,-24.75772 L 180,0 0,0 z"/></svg>
+            <figcaption>
+              
+              <button>likith m</button>
+            </figcaption>
+          </figure>
+        </a>
+        <a href="#" data-path-hover="m 0,0 0,47.7775 c 24.580441,3.12569 55.897012,-8.199417 90,-8.199417 34.10299,0 65.41956,11.325107 90,8.199417 L 180,0 z">
+          <figure class="grow">
+            <img src="team/images/27.jpg" width="200" height="200"/>
+            <svg viewBox="0 0 180 320" preserveAspectRatio="none"><path d="m 0,0 0,171.14385 c 24.580441,15.47138 55.897012,24.75772 90,24.75772 34.10299,0 65.41956,-9.28634 90,-24.75772 L 180,0 0,0 z"/></svg>
+            <figcaption>
+              
+              <button>manoj balaji</button>
+            </figcaption>
+          </figure>
+        </a>
+        <a href="#" data-path-hover="m 0,0 0,47.7775 c 24.580441,3.12569 55.897012,-8.199417 90,-8.199417 34.10299,0 65.41956,11.325107 90,8.199417 L 180,0 z">
+          <figure class="grow">
+            <img src="team/images/28.JPG" width="200" height="200"/>
+            <svg viewBox="0 0 180 320" preserveAspectRatio="none"><path d="m 0,0 0,171.14385 c 24.580441,15.47138 55.897012,24.75772 90,24.75772 34.10299,0 65.41956,-9.28634 90,-24.75772 L 180,0 0,0 z"/></svg>
+            <figcaption>
+              
+              <button>medhini</button>
+            </figcaption>
+          </figure>
+        </a>
+        <a href="#" data-path-hover="m 0,0 0,47.7775 c 24.580441,3.12569 55.897012,-8.199417 90,-8.199417 34.10299,0 65.41956,11.325107 90,8.199417 L 180,0 z">
+          <figure class="grow">
+            <img src="team/images/29.JPG" width="200" height="200"/>
+            <svg viewBox="0 0 180 320" preserveAspectRatio="none"><path d="m 0,0 0,171.14385 c 24.580441,15.47138 55.897012,24.75772 90,24.75772 34.10299,0 65.41956,-9.28634 90,-24.75772 L 180,0 0,0 z"/></svg>
+            <figcaption>
+              
+              <button>melissa</button>
+            </figcaption>
+          </figure>
+        </a>
+        <a href="#" data-path-hover="m 0,0 0,47.7775 c 24.580441,3.12569 55.897012,-8.199417 90,-8.199417 34.10299,0 65.41956,11.325107 90,8.199417 L 180,0 z">
+          <figure class="grow">
+            <img src="team/images/30.jpg" width="200" height="200"/>
+            <svg viewBox="0 0 180 320" preserveAspectRatio="none"><path d="m 0,0 0,171.14385 c 24.580441,15.47138 55.897012,24.75772 90,24.75772 34.10299,0 65.41956,-9.28634 90,-24.75772 L 180,0 0,0 z"/></svg>
+            <figcaption>
+              
+              <button>navya rao</button>
+            </figcaption>
+          </figure>
+        </a>
+        <a href="#" data-path-hover="m 0,0 0,47.7775 c 24.580441,3.12569 55.897012,-8.199417 90,-8.199417 34.10299,0 65.41956,11.325107 90,8.199417 L 180,0 z">
+          <figure class="grow">
+            <img src="team/images/31.JPG" width="200" height="200"/>
+            <svg viewBox="0 0 180 320" preserveAspectRatio="none"><path d="m 0,0 0,171.14385 c 24.580441,15.47138 55.897012,24.75772 90,24.75772 34.10299,0 65.41956,-9.28634 90,-24.75772 L 180,0 0,0 z"/></svg>
+            <figcaption>
+              
+              <button>paloma</button>
+            </figcaption>
+          </figure>
+        </a>
+        <a href="#" data-path-hover="m 0,0 0,47.7775 c 24.580441,3.12569 55.897012,-8.199417 90,-8.199417 34.10299,0 65.41956,11.325107 90,8.199417 L 180,0 z">
+          <figure class="grow">
+            <img src="team/images/32.jpg" width="200" height="200"/>
+            <svg viewBox="0 0 180 320" preserveAspectRatio="none"><path d="m 0,0 0,171.14385 c 24.580441,15.47138 55.897012,24.75772 90,24.75772 34.10299,0 65.41956,-9.28634 90,-24.75772 L 180,0 0,0 z"/></svg>
+            <figcaption>
+              
+              <button>pragathi p</button>
+            </figcaption>
+          </figure>
+        </a>
+        <a href="#" data-path-hover="m 0,0 0,47.7775 c 24.580441,3.12569 55.897012,-8.199417 90,-8.199417 34.10299,0 65.41956,11.325107 90,8.199417 L 180,0 z">
+          <figure class="grow">
+            <img src="team/images/33.jpg" width="200" height="200"/>
+            <svg viewBox="0 0 180 320" preserveAspectRatio="none"><path d="m 0,0 0,171.14385 c 24.580441,15.47138 55.897012,24.75772 90,24.75772 34.10299,0 65.41956,-9.28634 90,-24.75772 L 180,0 0,0 z"/></svg>
+            <figcaption>
+              
+              <button>prateek parashar</button>
+            </figcaption>
+          </figure>
+        </a>
+        <a href="#" data-path-hover="m 0,0 0,47.7775 c 24.580441,3.12569 55.897012,-8.199417 90,-8.199417 34.10299,0 65.41956,11.325107 90,8.199417 L 180,0 z">
+          <figure class="grow">
+            <img src="team/images/11.jpg" width="200" height="200"/>
+            <svg viewBox="0 0 180 320" preserveAspectRatio="none"><path d="m 0,0 0,171.14385 c 24.580441,15.47138 55.897012,24.75772 90,24.75772 34.10299,0 65.41956,-9.28634 90,-24.75772 L 180,0 0,0 z"/></svg>
+            <figcaption>
+              
+              <button>priya g</button>
+            </figcaption>
+          </figure>
+        </a>
+        <a href="#" data-path-hover="m 0,0 0,47.7775 c 24.580441,3.12569 55.897012,-8.199417 90,-8.199417 34.10299,0 65.41956,11.325107 90,8.199417 L 180,0 z">
+          <figure class="grow">
+            <img src="team/images/35.jpg" width="200" height="200"/>
+            <svg viewBox="0 0 180 320" preserveAspectRatio="none"><path d="m 0,0 0,171.14385 c 24.580441,15.47138 55.897012,24.75772 90,24.75772 34.10299,0 65.41956,-9.28634 90,-24.75772 L 180,0 0,0 z"/></svg>
+            <figcaption>
+              
+              <button>priyanshi</button>
+            </figcaption>
+          </figure>
+        </a>
+        <a href="#" data-path-hover="m 0,0 0,47.7775 c 24.580441,3.12569 55.897012,-8.199417 90,-8.199417 34.10299,0 65.41956,11.325107 90,8.199417 L 180,0 z">
+          <figure class="grow">
+            <img src="team/images/36.jpg" width="200" height="200"/>
+            <svg viewBox="0 0 180 320" preserveAspectRatio="none"><path d="m 0,0 0,171.14385 c 24.580441,15.47138 55.897012,24.75772 90,24.75772 34.10299,0 65.41956,-9.28634 90,-24.75772 L 180,0 0,0 z"/></svg>
+            <figcaption>
+              
+              <button>raghavendra hegdekatte</button>
+            </figcaption>
+          </figure>
+        </a>
+        <a href="#" data-path-hover="m 0,0 0,47.7775 c 24.580441,3.12569 55.897012,-8.199417 90,-8.199417 34.10299,0 65.41956,11.325107 90,8.199417 L 180,0 z">
+          <figure class="grow">
+            <img src="team/images/37.JPG" width="200" height="200"/>
+            <svg viewBox="0 0 180 320" preserveAspectRatio="none"><path d="m 0,0 0,171.14385 c 24.580441,15.47138 55.897012,24.75772 90,24.75772 34.10299,0 65.41956,-9.28634 90,-24.75772 L 180,0 0,0 z"/></svg>
+            <figcaption>
+              
+              <button>ragini kumari</button>
+            </figcaption>
+          </figure>
+        </a>
+        <a href="#" data-path-hover="m 0,0 0,47.7775 c 24.580441,3.12569 55.897012,-8.199417 90,-8.199417 34.10299,0 65.41956,11.325107 90,8.199417 L 180,0 z">
+          <figure class="grow">
+            <img src="team/images/38.jpg" width="200" height="200"/>
+            <svg viewBox="0 0 180 320" preserveAspectRatio="none"><path d="m 0,0 0,171.14385 c 24.580441,15.47138 55.897012,24.75772 90,24.75772 34.10299,0 65.41956,-9.28634 90,-24.75772 L 180,0 0,0 z"/></svg>
+            <figcaption>
+              
+              <button>sakshi</button>
+            </figcaption>
+          </figure>
+        </a>
+        <a href="#" data-path-hover="m 0,0 0,47.7775 c 24.580441,3.12569 55.897012,-8.199417 90,-8.199417 34.10299,0 65.41956,11.325107 90,8.199417 L 180,0 z">
+          <figure class="grow">
+            <img src="team/images/39.jpg" width="200" height="200"/>
+            <svg viewBox="0 0 180 320" preserveAspectRatio="none"><path d="m 0,0 0,171.14385 c 24.580441,15.47138 55.897012,24.75772 90,24.75772 34.10299,0 65.41956,-9.28634 90,-24.75772 L 180,0 0,0 z"/></svg>
+            <figcaption>
+              
+              <button>samhitha b n</button>
+            </figcaption>
+          </figure>
+        </a>
+        <a href="#" data-path-hover="m 0,0 0,47.7775 c 24.580441,3.12569 55.897012,-8.199417 90,-8.199417 34.10299,0 65.41956,11.325107 90,8.199417 L 180,0 z">
+          <figure class="grow">
+            <img src="team/images/40.jpg" width="200" height="200"/>
+            <svg viewBox="0 0 180 320" preserveAspectRatio="none"><path d="m 0,0 0,171.14385 c 24.580441,15.47138 55.897012,24.75772 90,24.75772 34.10299,0 65.41956,-9.28634 90,-24.75772 L 180,0 0,0 z"/></svg>
+            <figcaption>
+              
+              <button>shaina n</button>
+            </figcaption>
+          </figure>
+        </a>
+        <a href="#" data-path-hover="m 0,0 0,47.7775 c 24.580441,3.12569 55.897012,-8.199417 90,-8.199417 34.10299,0 65.41956,11.325107 90,8.199417 L 180,0 z">
+          <figure class="grow">
+            <img src="team/images/41.jpg" width="200" height="200"/>
+            <svg viewBox="0 0 180 320" preserveAspectRatio="none"><path d="m 0,0 0,171.14385 c 24.580441,15.47138 55.897012,24.75772 90,24.75772 34.10299,0 65.41956,-9.28634 90,-24.75772 L 180,0 0,0 z"/></svg>
+            <figcaption>
+              
+              <button>sharath s</button>
+            </figcaption>
+          </figure>
+        </a>
+        <a href="#" data-path-hover="m 0,0 0,47.7775 c 24.580441,3.12569 55.897012,-8.199417 90,-8.199417 34.10299,0 65.41956,11.325107 90,8.199417 L 180,0 z">
+          <figure class="grow">
+            <img src="team/images/42.jpg" width="200" height="200"/>
+            <svg viewBox="0 0 180 320" preserveAspectRatio="none"><path d="m 0,0 0,171.14385 c 24.580441,15.47138 55.897012,24.75772 90,24.75772 34.10299,0 65.41956,-9.28634 90,-24.75772 L 180,0 0,0 z"/></svg>
+            <figcaption>
+              
+              <button>shreya</button>
+            </figcaption>
+          </figure>
+        </a>
+        <a href="#" data-path-hover="m 0,0 0,47.7775 c 24.580441,3.12569 55.897012,-8.199417 90,-8.199417 34.10299,0 65.41956,11.325107 90,8.199417 L 180,0 z">
+          <figure class="grow">
+            <img src="team/images/43.jpg" width="200" height="200"/>
+            <svg viewBox="0 0 180 320" preserveAspectRatio="none"><path d="m 0,0 0,171.14385 c 24.580441,15.47138 55.897012,24.75772 90,24.75772 34.10299,0 65.41956,-9.28634 90,-24.75772 L 180,0 0,0 z"/></svg>
+            <figcaption>
+              
+              <button>shruthi g</button>
+            </figcaption>
+          </figure>
+        </a>
+        <a href="#" data-path-hover="m 0,0 0,47.7775 c 24.580441,3.12569 55.897012,-8.199417 90,-8.199417 34.10299,0 65.41956,11.325107 90,8.199417 L 180,0 z">
+          <figure class="grow">
+            <img src="team/images/44.jpg" width="200" height="200"/>
+            <svg viewBox="0 0 180 320" preserveAspectRatio="none"><path d="m 0,0 0,171.14385 c 24.580441,15.47138 55.897012,24.75772 90,24.75772 34.10299,0 65.41956,-9.28634 90,-24.75772 L 180,0 0,0 z"/></svg>
+            <figcaption>
+              
+              <button>shruthi s m</button>
+            </figcaption>
+          </figure>
+        </a>
+        <a href="#" data-path-hover="m 0,0 0,47.7775 c 24.580441,3.12569 55.897012,-8.199417 90,-8.199417 34.10299,0 65.41956,11.325107 90,8.199417 L 180,0 z">
+          <figure class="grow">
+            <img src="team/images/45.JPG" width="200" height="200"/>
+            <svg viewBox="0 0 180 320" preserveAspectRatio="none"><path d="m 0,0 0,171.14385 c 24.580441,15.47138 55.897012,24.75772 90,24.75772 34.10299,0 65.41956,-9.28634 90,-24.75772 L 180,0 0,0 z"/></svg>
+            <figcaption>
+              
+              <button>suhas c j</button>
+            </figcaption>
+          </figure>
+        </a>
+        <a href="#" data-path-hover="m 0,0 0,47.7775 c 24.580441,3.12569 55.897012,-8.199417 90,-8.199417 34.10299,0 65.41956,11.325107 90,8.199417 L 180,0 z">
+          <figure class="grow">
+            <img src="team/images/46.jpg" width="200" height="200"/>
+            <svg viewBox="0 0 180 320" preserveAspectRatio="none"><path d="m 0,0 0,171.14385 c 24.580441,15.47138 55.897012,24.75772 90,24.75772 34.10299,0 65.41956,-9.28634 90,-24.75772 L 180,0 0,0 z"/></svg>
+            <figcaption>
+              
+              <button>suhas m</button>
+            </figcaption>
+          </figure>
+        </a>
+        <a href="#" data-path-hover="m 0,0 0,47.7775 c 24.580441,3.12569 55.897012,-8.199417 90,-8.199417 34.10299,0 65.41956,11.325107 90,8.199417 L 180,0 z">
+          <figure class="grow">
+            <img src="team/images/47.jpg" width="200" height="200"/>
+            <svg viewBox="0 0 180 320" preserveAspectRatio="none"><path d="m 0,0 0,171.14385 c 24.580441,15.47138 55.897012,24.75772 90,24.75772 34.10299,0 65.41956,-9.28634 90,-24.75772 L 180,0 0,0 z"/></svg>
+            <figcaption>
+              
+              <button>sumana n</button>
+            </figcaption>
+          </figure>
+        </a>
+        <a href="#" data-path-hover="m 0,0 0,47.7775 c 24.580441,3.12569 55.897012,-8.199417 90,-8.199417 34.10299,0 65.41956,11.325107 90,8.199417 L 180,0 z">
+          <figure class="grow">
+            <img src="team/images/48.jpg" width="200" height="200"/>
+            <svg viewBox="0 0 180 320" preserveAspectRatio="none"><path d="m 0,0 0,171.14385 c 24.580441,15.47138 55.897012,24.75772 90,24.75772 34.10299,0 65.41956,-9.28634 90,-24.75772 L 180,0 0,0 z"/></svg>
+            <figcaption>
+              
+              <button>sushanth upadhya</button>
+            </figcaption>
+          </figure>
+        </a>
+        <a href="#" data-path-hover="m 0,0 0,47.7775 c 24.580441,3.12569 55.897012,-8.199417 90,-8.199417 34.10299,0 65.41956,11.325107 90,8.199417 L 180,0 z">
+          <figure class="grow">
+            <img src="team/images/49.jpg" width="200" height="200"/>
+            <svg viewBox="0 0 180 320" preserveAspectRatio="none"><path d="m 0,0 0,171.14385 c 24.580441,15.47138 55.897012,24.75772 90,24.75772 34.10299,0 65.41956,-9.28634 90,-24.75772 L 180,0 0,0 z"/></svg>
+            <figcaption>
+              
+              <button>tarun n</button>
+            </figcaption>
+          </figure>
+        </a>
+        <a href="#" data-path-hover="m 0,0 0,47.7775 c 24.580441,3.12569 55.897012,-8.199417 90,-8.199417 34.10299,0 65.41956,11.325107 90,8.199417 L 180,0 z">
+          <figure class="grow">
+            <img src="team/images/50.jpg" width="200" height="200"/>
+            <svg viewBox="0 0 180 320" preserveAspectRatio="none"><path d="m 0,0 0,171.14385 c 24.580441,15.47138 55.897012,24.75772 90,24.75772 34.10299,0 65.41956,-9.28634 90,-24.75772 L 180,0 0,0 z"/></svg>
+            <figcaption>
+              
+              <button>varuni desai</button>
+            </figcaption>
+          </figure>
+        </a>
+        <a href="#" data-path-hover="m 0,0 0,47.7775 c 24.580441,3.12569 55.897012,-8.199417 90,-8.199417 34.10299,0 65.41956,11.325107 90,8.199417 L 180,0 z">
+          <figure class="grow">
+            <img src="team/images/51.JPG" width="200" height="200"/>
+            <svg viewBox="0 0 180 320" preserveAspectRatio="none"><path d="m 0,0 0,171.14385 c 24.580441,15.47138 55.897012,24.75772 90,24.75772 34.10299,0 65.41956,-9.28634 90,-24.75772 L 180,0 0,0 z"/></svg>
+            <figcaption>
+              
+              <button>vaibhav</button>
+            </figcaption>
+          </figure>
+        </a>
+        <a href="#" data-path-hover="m 0,0 0,47.7775 c 24.580441,3.12569 55.897012,-8.199417 90,-8.199417 34.10299,0 65.41956,11.325107 90,8.199417 L 180,0 z">
+          <figure class="grow">
+            <img src="team/images/52.JPG" width="200" height="200"/>
+            <svg viewBox="0 0 180 320" preserveAspectRatio="none"><path d="m 0,0 0,171.14385 c 24.580441,15.47138 55.897012,24.75772 90,24.75772 34.10299,0 65.41956,-9.28634 90,-24.75772 L 180,0 0,0 z"/></svg>
+            <figcaption>
+              
+              <button>vighnesh shenoy</button>
+            </figcaption>
+          </figure>
+        </a>
+        <a href="#" data-path-hover="m 0,0 0,47.7775 c 24.580441,3.12569 55.897012,-8.199417 90,-8.199417 34.10299,0 65.41956,11.325107 90,8.199417 L 180,0 z">
+          <figure class="grow">
+            <img src="team/images/13.jpg" width="200" height="200"/>
+            <svg viewBox="0 0 180 320" preserveAspectRatio="none"><path d="m 0,0 0,171.14385 c 24.580441,15.47138 55.897012,24.75772 90,24.75772 34.10299,0 65.41956,-9.28634 90,-24.75772 L 180,0 0,0 z"/></svg>
+            <figcaption>
+              
+              <button>yashwanth h s</button>
+            </figcaption>
+          </figure>
+        </a>
+        </div> <!-- coord -->
             </div>
+
+            
+
             </div><!-- /pages -->
+
             <nav class="pagenav">
-             <button class="pagenav__button pagenav__button--top" aria-label="Navigate top">TOP</button>
-             <button class="pagenav__button pagenav__button--right" >RIGHT</button>
-             <button class="pagenav__button pagenav__button--left">LEFT</button>
+             <button class="pagenav__button pagenav__button--top" aria-label="Navigate top"></button>
+             <button class="pagenav__button pagenav__button--right">DESIGNERS</button>
+             <button class="pagenav__button pagenav__button--left"> CO  - ORDINATORS</button>
             </nav>
 
-            </div>
-
-
-
-                        <div class="container-fluid eventpage" style="display:none">
-
-
-                         <div class = "row text-center">
-                         <div class = "c1">
-                         <div id="lt" class = "col-sm-3 col-md-2" style="color:white">
-                           <h1 style="font-family: 'Orbitron', cursive;">Day 1</h1>
-                           <hr>
-                             <h2 style="font-family: 'Economica', cursive;" >
-                               <a id="itw"   > IT Wiz </a>
-                             </h2>
-                             <h2 style="font-family: 'Economica', cursive;" >
-                               <a id="vm" > Vaksamara </a>
-                             </h2>
-                             <h2 style="font-family: 'Economica', cursive;" >
-                               <a id="alc" > The Alchemist </a>
-                             </h2>
-                             <h2 style="font-family: 'Economica', cursive;" >
-                               <a id="bot" > Botnia 3.0 </a>
-                             </h2>
-                             <h2 style="font-family: 'Economica', cursive;" >
-                               <a id="cc" > Channel:Code </a>
-                             </h2>
-                             <h2 style="font-family: 'Economica', cursive;" >
-                               <a id="rr" > RoboRally </a>
-                             </h2>
-                             <h2 style="font-family: 'Economica', cursive;" >
-                               <a id="tnl" > Tech and Ladder </a>
-                             </h2>
-                             <h2 style="font-family: 'Economica', cursive;" >
-                               <a  id="gm"> Gaming </a>
-                             </h2>
-                             <h2 style="font-family: 'Economica', cursive;" >
-                               <a id="mp" > Mock Placements </a>
-                             </h2>
-                         </div>
-
-                         <div id="md" class="col-sm-6 col-md-8" style="color:white">
-                           <div id="head"><h1 style="font-family: 'Monoton', cursive;"></h1></div>
-                           <hr>
-                           <div id="cont"><h2 style="font-family: 'Cabin Sketch', cursive;"></h2>
-                           </div>
-                           <div class = "col-xs-6">
-                             <h2 style="font-family: 'Schoolbell', cursive;">
-                                 ORGANISERS
-                             </h2>
-                             <div id="names" class="col-xs-12"><h3 style="font-family: 'Caveat Brush', cursive;">
-                             </h3></div>
-                           </div>
-                           <div class = "col-xs-6">
-                             <h2 style="font-family: 'Schoolbell', cursive;">
-                                 TEAM SIZE
-                             </h2>
-                             <div id="size" class="col-xs-12"><h1 style="font-family: 'Caveat Brush', cursive;">
-                             </h1></div>
-                           </div>
-                         </div>
-
-                         <div id="rt" class = "col-sm-3 col-md-2"  style="color:white">
-                           <h1 style="font-family: 'Orbitron', cursive;">Day 2</h1>
-                           <hr>
-                             <h2 style="font-family: 'Economica', cursive;" >
-                               <a id="am" > Auto Mania </a>
-                             </h2>
-                             <h2 style="font-family: 'Economica', cursive;" >
-                               <a id="ul" > Unlock </a>
-                             </h2>
-                             <h2 style="font-family: 'Economica', cursive;" >
-                               <a id="goc" > Game of Codes </a>
-                             </h2>
-                             <h2 style="font-family: 'Economica', cursive;" >
-                               <a id="su" > Summit </a>
-                             </h2>
-                             <h2 style="font-family: 'Economica', cursive;" >
-                               <a id="cc" > Channel:Code </a>
-                             </h2>
-                             <h2 style="font-family: 'Economica', cursive;" >
-                               <a id="rr" > RoboRally </a>
-                             </h2>
-                             <h2 style="font-family: 'Economica', cursive;" >
-                               <a id="tnl" > Tech and Ladder </a>
-                             </h2>
-                             <h2 style="font-family: 'Economica', cursive;" >
-                               <a id="gm" > Gaming </a>
-                             </h2>
-                             <h2 style="font-family: 'Economica', cursive;" >
-                               <a id="mp" > Mock Placements </a>
-                             </h2>
-                         </div>
-                         </div>
-                       </div>
-
-                       </div>
-
-
-
-                     </div>
-            <!-- event page ends here -->
-
-
-
-
-			<div id="sb-container" class="sb-container " onClick="play()" style="display:none">
-
-				<div onClick="play()" href="contactUs.html" data-type="page-transition">
-					<audio id="audio1">
-						<source src="http://free-sounds.net/sound-files/special-effects/WATER_GL.WAV"></source>
-
-					</audio>
-
-                <span><i class="fa fa-address-book fa-3x icon"></i></span>
-                <h4><span class="conthead">Contact Us</span></h4>
-				</div>
-				<div onClick="play()" href="team.html" data-type="page-transition">
-					<audio id="audio1">
-						<source src="http://free-sounds.net/sound-files/special-effects/WATER_GL.WAV"></source>
-
-					</audio>
-					 <span><i class="fa fa-users fa-3x icon"></i></span>
-                <h4><span class="conthead">Team</span></h4>
-				</div>
-				<div onClick="play()" href="ieee.html" data-type="page-transition">
-					<audio id="audio1">
-						<source src="http://free-sounds.net/sound-files/special-effects/WATER_GL.WAV"></source>
-					</audio>
-
-					 <span><i class="fa fa-cog fa-4x icon"></i></span>
-                <h4><span class="conthead">IEEE</span></h4>
-				</div>
-				<div onClick="play()" href="uvce.html" data-type="page-transition">
-					<audio id="audio1">
-						<source src="http://free-sounds.net/sound-files/special-effects/WATER_GL.WAV"></source>
-
-					</audio>
-					 <span><i class="fa fa-envelope-open fa-3x icon"></i></span>
-                <h4><span class="conthead">UVCE</span></h4>
-				</div>
-				<!-- <div>
-				<span class="sb-icon icon-bag"></span>
-				<h4><span></span></h4>
-			</div>
-			<div>
-			<span class="sb-icon icon-globe"></span>
-			<h4><span></span></h4>
-		</div> -->
-		<div onClick="play()" href="gallery.html" data-type="page-transition">
-			<audio id="audio1">
-				<source src="http://free-sounds.net/sound-files/special-effects/WATER_GL.WAV"></source>
-
-			</audio>
-			<span class="fa fa-camera fa-3x icon"></span>
-            <h4><span class="conthead"> Gallery </span></h4>
-		</div>
-		<div onClick="play()" href="sponsors.html" data-type="page-transition">
-			<audio id="audio1">
-				<source src="http://free-sounds.net/sound-files/special-effects/WATER_GL.WAV"></source>
-			</audio>
-
-			 <span><i class="fa fa-inr fa-4x icon"></i></span>
-            <h4><span class="conthead">Sponsors</span></h4>
-		</div>
-		<div onClick="play()" href="day2.html" data-type="page-transition">
-			<audio id="audio1">
-				<source src="http://free-sounds.net/sound-files/special-effects/WATER_GL.WAV"></source>
-			</audio>
-
-
-            <span><i class="fa fa-star-half-full fa-4x icon"></i></span>
-            <h4><span class="conthead">Day 2</span></h4>
-		</div>
-		<div onClick="play()" href="day1.html" data-type="page-transition">
-			<audio id="audio1">
-				<source src="http://free-sounds.net/sound-files/special-effects/WATER_GL.WAV"></source>
-
-			</audio>
-			 <span><i class="fa fa-star-half-o fa-4x icon"></i></span>
-            <h4><span class="conthead">Day 1</span></h4>
-		</div>
-		<div onClick="play()">
-			<audio id="audio1">
-				<source src="http://free-sounds.net/sound-files/special-effects/WATER_GL.WAV"></source>
-
-			</audio>
-			  <span><i class="fa fa-star fa-4x icon"></i></span>
-            <h4><span class="conthead">Events</span></h4>
-		</div>
-		<div onClick="play()">
-			<audio id="audio1">
-				<source src="http://free-sounds.net/sound-files/special-effects/WATER_GL.WAV"></source>
-
-			</audio>
-			<h4><span>IMPETUS</span></h4>
-
-			<h5><span>IMPETUS &hearts; 2K17 </span></h5>
-		</div>
-
-
-	</div><!-- sb-container -->
-
+</div>
+            </main>
 
 </div><!--container ends here -->
-
-
 
 
       <div class="cd-cover-layer"></div>
       <div class="cd-loading-bar"></div>
 
-			<!-- page reveal effect  -->
-			<script src="./event/js/classie.js"></script>
-			<script src="./event/js/main.js"></script>
-			<script src="./event/js/pagereveal.js">
-		 </script>
+    
 
+      <!-- page reveal effect  -->
+      <script src="team/event/js/classie.js"></script>
+      <script src="team/event/js/main.js"></script>
+      <script src="team/event/js/pagereveal.js">
+     </script>
 
-      <!-- swatchbook JAVASCRIPT -->
-      <script>
+        <script src="./js/jquery-2.1.1.js"></script>
+        <script src="./js/routemain.js"></script> <!-- Resource jQuery -->
 
+     <!-- Js for team page -->
+<script >
+  (function() {
+  
+        function init() {
+          var speed = 330,
+            easing = mina.backout;
 
-            $('.sb-container').swatchbook( {
+          [].slice.call ( document.querySelectorAll( '.grid > a' ) ).forEach( function( el ) {
+            var s = Snap( el.querySelector( 'svg' ) ), path = s.select( 'path' ),
+              pathConfig = {
+                from : path.attr( 'd' ),
+                to : el.getAttribute( 'data-path-hover' )
+              };
 
-            angleInc : 20,
-            neighbor : 20,
-            initclosed : false ,
-            closeIdx : 9
-            });
+            el.addEventListener( 'mouseenter', function() {
+              path.animate( { 'path' : pathConfig.to }, speed, easing );
+            } );
 
-      </script>
+            el.addEventListener( 'mouseleave', function() {
+              path.animate( { 'path' : pathConfig.from }, speed, easing );
+            } );
+          } );
+        }
 
-			<!-- audio on click -->
-        <script>
+        init();
+
+      })();
+</script>
+
+<script>
+    AOS.init();
+    
+  </script>
+<script type="text/javascript">
+$(document).ready(function(){
+
+$('.loader2wrap').show(); // div haveing message "Loading Data Please wait and Image loader.gif
+
+$('.teampage').load(); 
+
+$('.loader2wrap').fadeOut('fast'); // hide this div after loading
+
+}); 
+</script>
+  <script>
           function play(){
             var audio = document.getElementById("audio1");
                audio.play();
              }
         </script>
 
-
-
-      <!-- techbee javascript code -->
-      <script src="./js/techbee.js" type="text/javascript">
-      </script>
-        <script src="js/jquery-2.1.1.js"></script>
-        <script src="js/routemain.js"></script> <!-- Resource jQuery -->
-
- <script type="text/javascript">
-          $(window).resize(function(){
-      console.log('resize called');
-      var width = $(window).width();
-    if(width <= 700){
-       $('.icon').removeClass('fa-4x').addClass('fa-2x');
-         $('.icon').removeClass('fa-3x').addClass('fa-2x');
-         $('.conthead').css('margin-bottom: 350px');
-   }
-    else{
-       $('.icon').removeClass('fa-2x').addClass('fa-4x');
-        $('.conthead').css('margin-bottom: 0px');
-   }
-})
-.resize();
-        </script>
-             <!-- uvce js -->
-        <script src="uvce/js/anime.min.js"></script>
-      		<!-- <script src="js/scrollMonitor.js"></script> -->
-      		<script src="uvce/js/main.js"></script>
-      		<script>
-      		(function() {
-      			// Fake loading.
-      			setTimeout(init, 1000);
-
-      			function init() {
-
-      				var rev1 = new RevealFx(document.querySelector('#rev-1'), {
-      					revealSettings : {
-      						bgcolor: '#244AFC',
-      						onCover: function(contentEl, revealerEl) {
-      							contentEl.style.opacity = 1;
-      						}
-      					}
-      				});
-      				rev1.reveal();
-
-      				var rev2 = new RevealFx(document.querySelector('#rev-2'), {
-      					revealSettings : {
-      						bgcolor: '#FB0A5D',
-      						delay: 270,
-      						onCover: function(contentEl, revealerEl) {
-      							contentEl.style.opacity = 1;
-      						}
-      					}
-      				});
-      				rev2.reveal();
-
-      				var rev3 = new RevealFx(document.querySelector('#rev-3'), {
-      					revealSettings : {
-      						bgcolor: '#39D005',
-      						delay: 300,
-      						onCover: function(contentEl, revealerEl) {
-      							contentEl.style.opacity = 1;
-      						}
-      					}
-      				});
-      				rev3.reveal();
-
-
-      				var rev4 = new RevealFx(document.querySelector('#rev-4'), {
-      					revealSettings : {
-      						bgcolor: '#285094',
-      						delay: 290,
-      						onCover: function(contentEl, revealerEl) {
-      							contentEl.style.opacity = 1;
-      						}
-      					}
-      				});
-      				rev4.reveal();
-
-      				var rev5 = new RevealFx(document.querySelector('#rev-5'), {
-      					revealSettings : {
-      						bgcolor: '#E37F80',
-      						delay: 320,
-      						onCover: function(contentEl, revealerEl) {
-      							contentEl.style.opacity = 1;
-      						}
-      					}
-      				});
-      				rev5.reveal();
-
-
-      			}})();
-      		</script>
 
 
     </body>

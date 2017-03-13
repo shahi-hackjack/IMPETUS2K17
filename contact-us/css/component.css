@@ -1,0 +1,184 @@
+@import url(https://fonts.googleapis.com/css?family=Signika);
+@import url(https://fonts.googleapis.com/css?family=Kurale);
+
+
+
+.contactus{
+	
+	height: 800px;
+	
+	overflow-x: hidden;
+	overflow-y: auto;
+	/*background: rgba(0,0,0,0.2);
+	background: url("contact_us/bg-image/blur.jpg");*/
+	background: -webkit-linear-gradient(top, #ccffcc , #b8b894); 
+  background: -o-linear-gradient(bottom, #ccffcc, #b8b894); 
+  background: -moz-linear-gradient(bottom, #ccffcc, #b8b894); 
+  background: linear-gradient(to bottom, #ccffcc , #b8b894);
+	background-size: cover;
+	background-repeat: no-repeat;
+	
+}
+.contactus h1{
+	letter-spacing: 3px;
+	font-size: 75px;
+	font-weight: 50%;
+	font-family: 'Fjalla One', sans-serif;
+	text-align: center;
+	text-transform: uppercase;
+	color:white;
+	margin-top: 2%;
+	margin-bottom: 0;
+}
+
+.contactus h3,.map h3{
+	font-size: 30px;
+	margin-top: 10px;
+	text-transform: uppercase;
+	text-align: center;
+
+	letter-spacing: 1px;
+	font-family: 'Lato', sans-serif;
+	color: #161e2d;
+}
+
+.contactmain
+{
+	align-content: center;
+}
+
+.contactmain:hover{
+	-webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+}
+
+.contactmain p{
+	text-align: center;
+	font-size: 20px;
+	font-weight: 20%;
+	color: #131314;
+}
+
+.contactmain i{
+	/*margin: 10px 0 10px 260px;*/
+	margin-top: 2%;
+	margin-bottom: 2%;
+	margin-left: 45%;
+	
+}
+
+#eid{
+	text-transform: lowercase;
+	padding-left: 5px;
+}
+
+#impetuslogo{
+	width: 15%;
+	z-index: 1000;
+}
+
+#rev-3{
+	position: absolute;
+	width: 702px;
+	 top: -7px;
+	left: -257px;
+	text-align: center;
+	z-index: 1000;
+}
+
+.map iframe{
+	/*margin: 5px 0 30px 400px;*/
+	
+	margin-bottom: 2%;
+	margin-left: 37%;
+}
+
+.map:hover{
+	-webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+}
+
+@media screen and (max-width: 1024px) and (min-width: 767px)
+{
+	
+	.contactmain i{
+	/*margin: 20px 0 10px 190px;*/
+	margin-left: 45%;
+	margin-top: 0;
+	font-size: 60px;
+}
+	.contactus h3{
+		font-size: 24px;
+	}
+	.map iframe{
+	margin-bottom: 1%;
+	margin-left: 32%;
+	width: 40%;
+	height: 30%;
+	
+}
+	
+}
+
+@media screen and (max-width: 768px) and (min-width: 433px)
+{
+	.contactmain i{
+	margin-left: 45%;
+	margin-top: 0;
+	font-size: 50px;
+}
+	.map iframe{
+	width: 40%;
+	height: 20%;
+	margin-left: 30%;
+	
+}
+.contactus h3{
+		font-size: 24px;
+	}
+	.contactus{
+		overflow-y: scroll;
+	}
+
+}
+
+@media screen and (max-width: 640px)
+{
+	.contactmain i{
+	/*margin: 20px 0 10px 155px;*/
+	margin-left: 45%;
+	margin-top: 4%;
+	font-size: 40px;
+}
+	.contactmain p{
+		font-size: 15px;
+	}
+	.map iframe{
+	/*margin: 30px 0 30px -15px;*/
+	margin-left: 25%;
+	margin-top: 7%;
+	width:50%;
+	height: 20%;
+}
+	.contactus h1{
+		font-size: 50px;
+		margin-left: 4%;
+		letter-spacing: 2px;
+
+	}
+	.contactus h3{
+		font-size: 22px;
+		margin-top: 3%;
+	}
+	.contactus{
+		overflow-y: scroll;
+	}
+	.contlogo{
+		height: 45px!important;
+		width: 45px!important;
+		margin-left: -12%;
+		margin-top: 1%;
+	}
+}

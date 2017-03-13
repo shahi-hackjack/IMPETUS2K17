@@ -6,41 +6,33 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <title>IMPETUS 2K17</title>
 
-        <link rel="shortcut icon" href="../favicon.ico">
+        <!-- CSS -->
+        <link rel="stylesheet" type="text/css" href="IEEE/ieee/css/jquery.jscrollpane.custom.css" />
+        <link rel="stylesheet" type="text/css" href="IEEE/ieee/css/bookblock.css" />
+        <link rel="stylesheet" type="text/css" href="IEEE/ieee/css/custom.css" />
 
-           <!-- CSS  -->
-        <link rel="stylesheet" type="text/css" href="css/demo.css" />
+        <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 
-				<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,600|Merriweather:400' rel='stylesheet' type='text/css'>
-				<link rel="stylesheet" type="text/css" href="./event/css/normalize.css" />
- 			<link rel="stylesheet" type="text/css" href="./event/css/demo.css" />
- 			<link rel="stylesheet" type="text/css" href="./event/css/component.css" />
- 		<script src="./event/js/modernizr-custom.js"></script>
+        <script src="IEEE/ieee/js/modernizr.custom.79639.js"></script>
+        <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
 
-           <link rel="stylesheet" href="css/styleload.css"/>
+        <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
 
+        <link rel="stylesheet" href="css/styleload.css"/>
         <script type="text/javascript" src="js/modernizr.custom.79639.js"></script>
-           <!-- FONTS -->
-        <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
-        <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700,300,300italic' rel='stylesheet' type='text/css'>
-        <!-- ICONS-->
-        <link rel="stylesheet" href="css/icons/css/font-awesome.min.css">
 
-        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular.min.js"></script>
-        <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js"></script>
-        <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 
 
-        <!-- uvce css     -->
-      		    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700" rel="stylesheet">
-      				<link rel="stylesheet" type="text/css" href="uvce/css/revealer.css" />
-      				<link rel="stylesheet" type="text/css" href="uvce/css/demo.css" />
+        <link rel="stylesheet" href="css/stylemain.css"> <!-- Resource style -->
 
 
-<script type="text/javascript" src="js/jquery.swatchbook.js"></script>
-<script src="./angular/controller.js" type="text/javascript"></script>
+
+
+
+
 <script src="./js/cursor.js" type="text/javascript"></script>
-<link rel="stylesheet" href="css/stylemain.css"> <!-- Resource style -->
 <!-- <link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
 
 <link rel="stylesheet" href="css/styleroute.css"> <!-- Resource style -->
@@ -60,17 +52,20 @@ $(window).ready(function(){
   $(".container").fadeIn("slow").delay(120000);
 });
 </script>
-
-<!-- event page -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<!-- <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular.min.js" ></script> -->
-<!-- <script src="controllers/controller.js"></script> -->
-<link rel = "stylesheet" href="eventmain/css/main.css" />
-<link href="https://fonts.googleapis.com/css?family=Bahiana|Barrio|Caveat+Brush|Orbitron|VT323|Economica|Permanent+Marker|Monoton|Indie+Flower|Cabin+Sketch|Schoolbell" rel="stylesheet">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.nicescroll/3.6.8-fix/jquery.nicescroll.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.nicescroll/3.6.8-fix/zoomico.png"></script>
-<script type="text/javascript" src="eventmain/main.js"></script>
+<style>
+#ieeeimpetuslogo{
+  position: absolute;
+  width: 135px;
+  z-index: 10000;
+}
+@media only screen and (max-width: 640px){
+#ieeeimpetuslogo
+{
+  width : 60px;
+  height: 80px;
+}
+}
+</style>
 
 
 
@@ -86,246 +81,74 @@ $(window).ready(function(){
 
 	    <main>
             <div class="cd-main-content cd-about">
-                       <a href="index.html" data-type="page-transition"><img id="impetuslogo"  src="./images/impetus.png" /></a>
-          			<section>
-
-
-
-
-
-
-          			</section>
+                       <a href="index.html" onClick="play()" data-type="page-transition"><img id="ieeeimpetuslogo" class="logo" src="./images/impetus.png" /></a>
+                        <audio id="audio1">
+            <source src="./images/audio.mpeg"></source>
+          </audio>
+              </div>
 
 
 						</main>
+           
+            
+            <div id="container" class="container" class="no-js">
+
+              <div class="bb-custom-wrapper">
+
+                <div id="bb-bookblock" class="bb-bookblock">
+                  <div class="bb-item" id="item1">
+
+                    <div class="content" data-aos="fade-right" data-aos-delay="500" data-aos-duration="600">
+
+                      <div class="scroller">
+                        <h2 data-aos="fade-right" data-aos-delay="500" data-aos-duration="600">IEEE UVCE</h2>
+                        <img src="IEEE/ieee/css/ieee.png" data-aos="fade-left" data-aos-delay="600" data-aos-duration="600">
+                        <p>IEEE UVCE has come to be one of the most recognised student branches across Region 10 of IEEE. Rekindled in 2001, the student branch has since grown to a strength of over 200 student members. The organization's commitment to enhancing and upgrading the core knowledge base of its members to the industry standards is reflected in the host of activities organised by it throghtout  the year. Symposiums, guest leactures, hands-on workshops, the National Level Paper Presentation contest - KAGADA, the National Level Technical Fest- IMPETUS; intra collegiate activities- RIPPLES and industrial tours are some of the events held all through the year. Our diligent efforts haven't been left unrecognized. IEEE UVCE was awarded the Exemplory Student Branch in Region 10 for the year 2016. IEEE UVCE WIE affinity group won the Region 10 Outstanding WIE Group Affinity Award. The National Level Paper Presentation Contest- KAGADA was conferred the Darrel Platinum Level Student Activity Award. In the Bangalore Section, Team IEEE UVCE won the Best Student Branch Website Award and also the first runner up in the Poster Presentation Contest. There were individual honours too as our Principal, Dr Venugopal K R was conferred with the IEEE Fellow rade for his exemplary contributions towards the field of education and Dr. P Deepa Shenoy was awraded with the Best Branch Counselor Award. Our spirit of volunteering was recognized when Mahesh R B, Ex- Chairperson IEEE UVCE, won the Outstanding Student Volunteer Award for his contributions.</p>
+                        <br>
+                        <p class="page"><i> Flip page to read more about Impetus </i></p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="bb-item" id="item4">
+
+                    <div class="content">
+                      <div class="scroller">
+                        <h2>IMPETUS</h2>
+                        <img src="IEEE/ieee/css/impetus.png">
+                        <p> IMPETUS is our National Level Technical Extravaganza started in the year 2001. For fifteen years now, it has been serving as a platform for the students to showcase their skills and share their views. It brings together the brilliant minds, whose direction of thought has been streamlined by extensive knowledge, to compete in an arena marked by fight for creativity, excellence and innovation. Held on an inter-collegiate level, this fest consists of a variety of technical events and sees a footfall of over 1000 students every year. IMPETUS is a technical fest designed for a change and with vivid difference. Unlike other fests, every year this fest goes out with a message for the engineers. IMPETUS 2009 was focused at spreading environmental awareness among engineers. In the year 2010, the fest was themed with women empowerment and in 2011, it stood to assess the effect of IT in Bangalore. In 2012, the fest was themed after Engineering for Society followed by Innovation and Entrepreneurship in 2013 and previous version being centered on Importance of Research and Development. The fest has always had a diverse participation from all over the country. Over the years IMPETUS has emerged to be one of Bangalore's top technical fests.</p>
+                        <br>
+                        <p class="page"><i> Flip page to read more about the theme Smart Era </i></p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="bb-item" id="item5">
+
+                    <div class="content">
+                      <div class="scroller">
+                        <h2>SMART ERA</h2>
+                        <p> The humans, quite ostensibly like any other species are inheritably indolent,idle and slow. However, unlike other species, we can understand, create,invent and innovate; qualities which have enabled us to circumvent the slow period of eveolution and grow at a rapid rate </p>
+                        <p> From inventing the wheel to roaming in horse carriages and now with driverless cars at tge threshold, it has been our constant endeavour to make a job easier by replacing hands of flesh and blood with that of steel. And it is this endeavour that has provided us the impetus to ideate and innovate and has propelled us to greater heights in the realm of technology. </p>
+                        <p> At the present juncture, the intersection of high speed data communication and Automation has given birth to a number of exciting fields waiting to be explored. IoT, Automated Automobiles, Machine Learning; all of which are enclosed within one elgant umbrella of "SMart Technologies", driving us towards a technological change designed to make simpler and better for everyone. </p>
+                        <p> Technological change, however isn't the fancy, new and expensive stuff churned like becoming cheaper and faster. 150 years ago, the Telegram was the fastest mode of communication and 15 years ago, we carried 3 different bags for a camera, CD player and a cell phone. All of which has been replaced by a 5 inch rectangle that recognises our fingerprint and is so affordable that it has become an indelible part of today's society. </p>
+                        <p> The current "Smart Era" is at the cusp of impacting daily lives at a scale we have never experienced before. So much so that the Government is hardbound in making it a priority with important schemes and policies like "Digital India" and "Smart Cities", designed as an initiative to cope with the demands of the ever evolving world. Having said that, "Smart Technologies" still need an extensive amount of research and an ever evolving time frame which has thrown open new vistas of oppurtunities to everyone in becoming a part of the transformation; which is why it is so important for an engineer to keep abreast with all the happenings in this stream of developments. </p>
+                        <p> With that as our motivation, we here at IEEE UVCE, invite you with all this March to IMPETUS 17.0, to join us in the process where we put 'Smart Era' under a lens and have lots of fun with an open mind, a thinking mind. </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <nav>
+                  <span id="bb-nav-prev">&larr;</span>
+                  <span id="bb-nav-next">&rarr;</span>
+                </nav>
 
 
 
-            <div class="pagescont" style="display:none">
-                  <div class="pages">
-            <div class="page page--current"><!-- intro page -->
+              </div>
 
-                      </div><!-- /page -->
-            <div class="page">
-              <blockquote class="quote">
-                <p>DESIGNER</p>
-              </blockquote>
-            </div>
-            <div class="page">
-              <blockquote class="quote">
-                <p>COORDINATORS</p>
-                <footer>Doug Linder</footer>
-              </blockquote>
-            </div>
-            </div><!-- /pages -->
-            <nav class="pagenav">
-             <button class="pagenav__button pagenav__button--top" aria-label="Navigate top">TOP</button>
-             <button class="pagenav__button pagenav__button--right" >RIGHT</button>
-             <button class="pagenav__button pagenav__button--left">LEFT</button>
-            </nav>
+            </div><!-- /ieeecontainer -->
 
-            </div>
-
-
-
-                        <div class="container-fluid eventpage" style="display:none">
-
-
-                         <div class = "row text-center">
-                         <div class = "c1">
-                         <div id="lt" class = "col-sm-3 col-md-2" style="color:white">
-                           <h1 style="font-family: 'Orbitron', cursive;">Day 1</h1>
-                           <hr>
-                             <h2 style="font-family: 'Economica', cursive;" >
-                               <a id="itw"   > IT Wiz </a>
-                             </h2>
-                             <h2 style="font-family: 'Economica', cursive;" >
-                               <a id="vm" > Vaksamara </a>
-                             </h2>
-                             <h2 style="font-family: 'Economica', cursive;" >
-                               <a id="alc" > The Alchemist </a>
-                             </h2>
-                             <h2 style="font-family: 'Economica', cursive;" >
-                               <a id="bot" > Botnia 3.0 </a>
-                             </h2>
-                             <h2 style="font-family: 'Economica', cursive;" >
-                               <a id="cc" > Channel:Code </a>
-                             </h2>
-                             <h2 style="font-family: 'Economica', cursive;" >
-                               <a id="rr" > RoboRally </a>
-                             </h2>
-                             <h2 style="font-family: 'Economica', cursive;" >
-                               <a id="tnl" > Tech and Ladder </a>
-                             </h2>
-                             <h2 style="font-family: 'Economica', cursive;" >
-                               <a  id="gm"> Gaming </a>
-                             </h2>
-                             <h2 style="font-family: 'Economica', cursive;" >
-                               <a id="mp" > Mock Placements </a>
-                             </h2>
-                         </div>
-
-                         <div id="md" class="col-sm-6 col-md-8" style="color:white">
-                           <div id="head"><h1 style="font-family: 'Monoton', cursive;"></h1></div>
-                           <hr>
-                           <div id="cont"><h2 style="font-family: 'Cabin Sketch', cursive;"></h2>
-                           </div>
-                           <div class = "col-xs-6">
-                             <h2 style="font-family: 'Schoolbell', cursive;">
-                                 ORGANISERS
-                             </h2>
-                             <div id="names" class="col-xs-12"><h3 style="font-family: 'Caveat Brush', cursive;">
-                             </h3></div>
-                           </div>
-                           <div class = "col-xs-6">
-                             <h2 style="font-family: 'Schoolbell', cursive;">
-                                 TEAM SIZE
-                             </h2>
-                             <div id="size" class="col-xs-12"><h1 style="font-family: 'Caveat Brush', cursive;">
-                             </h1></div>
-                           </div>
-                         </div>
-
-                         <div id="rt" class = "col-sm-3 col-md-2"  style="color:white">
-                           <h1 style="font-family: 'Orbitron', cursive;">Day 2</h1>
-                           <hr>
-                             <h2 style="font-family: 'Economica', cursive;" >
-                               <a id="am" > Auto Mania </a>
-                             </h2>
-                             <h2 style="font-family: 'Economica', cursive;" >
-                               <a id="ul" > Unlock </a>
-                             </h2>
-                             <h2 style="font-family: 'Economica', cursive;" >
-                               <a id="goc" > Game of Codes </a>
-                             </h2>
-                             <h2 style="font-family: 'Economica', cursive;" >
-                               <a id="su" > Summit </a>
-                             </h2>
-                             <h2 style="font-family: 'Economica', cursive;" >
-                               <a id="cc" > Channel:Code </a>
-                             </h2>
-                             <h2 style="font-family: 'Economica', cursive;" >
-                               <a id="rr" > RoboRally </a>
-                             </h2>
-                             <h2 style="font-family: 'Economica', cursive;" >
-                               <a id="tnl" > Tech and Ladder </a>
-                             </h2>
-                             <h2 style="font-family: 'Economica', cursive;" >
-                               <a id="gm" > Gaming </a>
-                             </h2>
-                             <h2 style="font-family: 'Economica', cursive;" >
-                               <a id="mp" > Mock Placements </a>
-                             </h2>
-                         </div>
-                         </div>
-                       </div>
-
-                       </div>
-
-
-
-                     </div>
-            <!-- event page ends here -->
-
-
-
-
-			<div id="sb-container" class="sb-container " onClick="play()" style="display:none">
-
-				<div onClick="play()" href="contactUs.html" data-type="page-transition">
-					<audio id="audio1">
-						<source src="http://free-sounds.net/sound-files/special-effects/WATER_GL.WAV"></source>
-
-					</audio>
-
-                <span><i class="fa fa-address-book fa-3x icon"></i></span>
-                <h4><span class="conthead">Contact Us</span></h4>
-				</div>
-				<div onClick="play()" href="team.html" data-type="page-transition">
-					<audio id="audio1">
-						<source src="http://free-sounds.net/sound-files/special-effects/WATER_GL.WAV"></source>
-
-					</audio>
-					 <span><i class="fa fa-users fa-3x icon"></i></span>
-                <h4><span class="conthead">Team</span></h4>
-				</div>
-				<div onClick="play()" href="ieee.html" data-type="page-transition">
-					<audio id="audio1">
-						<source src="http://free-sounds.net/sound-files/special-effects/WATER_GL.WAV"></source>
-					</audio>
-
-					 <span><i class="fa fa-cog fa-4x icon"></i></span>
-                <h4><span class="conthead">IEEE</span></h4>
-				</div>
-				<div onClick="play()" href="uvce.html" data-type="page-transition">
-					<audio id="audio1">
-						<source src="http://free-sounds.net/sound-files/special-effects/WATER_GL.WAV"></source>
-
-					</audio>
-					 <span><i class="fa fa-envelope-open fa-3x icon"></i></span>
-                <h4><span class="conthead">UVCE</span></h4>
-				</div>
-				<!-- <div>
-				<span class="sb-icon icon-bag"></span>
-				<h4><span></span></h4>
-			</div>
-			<div>
-			<span class="sb-icon icon-globe"></span>
-			<h4><span></span></h4>
-		</div> -->
-		<div onClick="play()" href="gallery.html" data-type="page-transition">
-			<audio id="audio1">
-				<source src="http://free-sounds.net/sound-files/special-effects/WATER_GL.WAV"></source>
-
-			</audio>
-			<span class="fa fa-camera fa-3x icon"></span>
-            <h4><span class="conthead"> Gallery </span></h4>
-		</div>
-		<div onClick="play()" href="sponsors.html" data-type="page-transition">
-			<audio id="audio1">
-				<source src="http://free-sounds.net/sound-files/special-effects/WATER_GL.WAV"></source>
-			</audio>
-
-			 <span><i class="fa fa-inr fa-4x icon"></i></span>
-            <h4><span class="conthead">Sponsors</span></h4>
-		</div>
-		<div onClick="play()" href="day2.html" data-type="page-transition">
-			<audio id="audio1">
-				<source src="http://free-sounds.net/sound-files/special-effects/WATER_GL.WAV"></source>
-			</audio>
-
-
-            <span><i class="fa fa-star-half-full fa-4x icon"></i></span>
-            <h4><span class="conthead">Day 2</span></h4>
-		</div>
-		<div onClick="play()" href="day1.html" data-type="page-transition">
-			<audio id="audio1">
-				<source src="http://free-sounds.net/sound-files/special-effects/WATER_GL.WAV"></source>
-
-			</audio>
-			 <span><i class="fa fa-star-half-o fa-4x icon"></i></span>
-            <h4><span class="conthead">Day 1</span></h4>
-		</div>
-		<div onClick="play()">
-			<audio id="audio1">
-				<source src="http://free-sounds.net/sound-files/special-effects/WATER_GL.WAV"></source>
-
-			</audio>
-			  <span><i class="fa fa-star fa-4x icon"></i></span>
-            <h4><span class="conthead">Events</span></h4>
-		</div>
-		<div onClick="play()">
-			<audio id="audio1">
-				<source src="http://free-sounds.net/sound-files/special-effects/WATER_GL.WAV"></source>
-
-			</audio>
-			<h4><span>IMPETUS</span></h4>
-
-			<h5><span>IMPETUS &hearts; 2K17 </span></h5>
-		</div>
-
-
-	</div><!-- sb-container -->
 
 
 </div><!--container ends here -->
@@ -336,128 +159,35 @@ $(window).ready(function(){
       <div class="cd-cover-layer"></div>
       <div class="cd-loading-bar"></div>
 
-			<!-- page reveal effect  -->
-			<script src="./event/js/classie.js"></script>
-			<script src="./event/js/main.js"></script>
-			<script src="./event/js/pagereveal.js">
-		 </script>
+        <script src="js/jquery-2.1.1.js"></script>
+        <script src="js/routemain.js"></script> <!-- Resource jQuery -->
 
 
-      <!-- swatchbook JAVASCRIPT -->
-      <script>
 
-
-            $('.sb-container').swatchbook( {
-
-            angleInc : 20,
-            neighbor : 20,
-            initclosed : false ,
-            closeIdx : 9
-            });
-
-      </script>
-
-			<!-- audio on click -->
+        <script src="IEEE/ieee/js/jquery.mousewheel.js"></script>
+        <script src="IEEE/ieee/js/jquery.jscrollpane.min.js"></script>
+        <script src="IEEE/ieee/js/jquerypp.custom.js"></script>
+        <script src="IEEE/ieee/js/jquery.bookblock.js"></script>
+        <script src="IEEE/ieee/js/page.js"></script>
         <script>
+          $(function() {
+
+            Page.init();
+
+          });
+        </script>
+        <script type="text/javascript">
+        AOS.init();
+        </script>
+
+
+
+<script>
           function play(){
             var audio = document.getElementById("audio1");
                audio.play();
              }
         </script>
-
-
-
-      <!-- techbee javascript code -->
-      <script src="./js/techbee.js" type="text/javascript">
-      </script>
-        <script src="js/jquery-2.1.1.js"></script>
-        <script src="js/routemain.js"></script> <!-- Resource jQuery -->
-
- <script type="text/javascript">
-          $(window).resize(function(){
-      console.log('resize called');
-      var width = $(window).width();
-    if(width <= 700){
-       $('.icon').removeClass('fa-4x').addClass('fa-2x');
-         $('.icon').removeClass('fa-3x').addClass('fa-2x');
-         $('.conthead').css('margin-bottom: 350px');
-   }
-    else{
-       $('.icon').removeClass('fa-2x').addClass('fa-4x');
-        $('.conthead').css('margin-bottom: 0px');
-   }
-})
-.resize();
-        </script>
-             <!-- uvce js -->
-        <script src="uvce/js/anime.min.js"></script>
-      		<!-- <script src="js/scrollMonitor.js"></script> -->
-      		<script src="uvce/js/main.js"></script>
-      		<script>
-      		(function() {
-      			// Fake loading.
-      			setTimeout(init, 1000);
-
-      			function init() {
-
-      				var rev1 = new RevealFx(document.querySelector('#rev-1'), {
-      					revealSettings : {
-      						bgcolor: '#244AFC',
-      						onCover: function(contentEl, revealerEl) {
-      							contentEl.style.opacity = 1;
-      						}
-      					}
-      				});
-      				rev1.reveal();
-
-      				var rev2 = new RevealFx(document.querySelector('#rev-2'), {
-      					revealSettings : {
-      						bgcolor: '#FB0A5D',
-      						delay: 270,
-      						onCover: function(contentEl, revealerEl) {
-      							contentEl.style.opacity = 1;
-      						}
-      					}
-      				});
-      				rev2.reveal();
-
-      				var rev3 = new RevealFx(document.querySelector('#rev-3'), {
-      					revealSettings : {
-      						bgcolor: '#39D005',
-      						delay: 300,
-      						onCover: function(contentEl, revealerEl) {
-      							contentEl.style.opacity = 1;
-      						}
-      					}
-      				});
-      				rev3.reveal();
-
-
-      				var rev4 = new RevealFx(document.querySelector('#rev-4'), {
-      					revealSettings : {
-      						bgcolor: '#285094',
-      						delay: 290,
-      						onCover: function(contentEl, revealerEl) {
-      							contentEl.style.opacity = 1;
-      						}
-      					}
-      				});
-      				rev4.reveal();
-
-      				var rev5 = new RevealFx(document.querySelector('#rev-5'), {
-      					revealSettings : {
-      						bgcolor: '#E37F80',
-      						delay: 320,
-      						onCover: function(contentEl, revealerEl) {
-      							contentEl.style.opacity = 1;
-      						}
-      					}
-      				});
-      				rev5.reveal();
-
-
-      			}})();
-      		</script>
 
 
     </body>
